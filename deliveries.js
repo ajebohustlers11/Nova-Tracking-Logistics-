@@ -27,11 +27,11 @@ const deliveries = [
       totalFreight: "$220",
       carrier: "Air Carrier (Nova445763222)",
       carrierRef: "UK55667788",
-      departureTime: "12:00",
+      departureTime: "13:00",
       origin: "LONDON",
       destination: "United Kingdom",
       pickupDate: "13-10-2025",
-      pickupTime: "05:00",
+      pickupTime: "17:00",
       status: "Accepted",
       comments: "Package prepared for shipment",
       agentName: "Jason Moore",
@@ -521,6 +521,7 @@ const deliveries = [
     ]
   }
 ];
+
 
 
 
