@@ -38,7 +38,7 @@ const deliveries = [
       shipmentType: "Air Express"
     },
     events: [
-      { time: "2025-08-15T03:00:00Z", status: "Shipment information received", location: "London Stansted Airport (STN), Bassingbourn Rd, Stansted CM24 1QW, United Kingdom", coords: [51.8850, 0.2350], details: "Label created and pickup scheduled" },
+      { time: "2025-10-13T12:00:00Z", status: "Shipment information received", location: "London Stansted Airport (STN), Bassingbourn Rd, Stansted CM24 1QW, United Kingdom", coords: [51.8850, 0.2350], details: "Label created and pickup scheduled" },
       { time: "2025-08-15T07:30:00Z", status: "Picked up", location: "Rome Sorting Center", coords: [41.9022, 12.4539], details: "Accepted at local facility" },
     ]
   },
@@ -521,4 +521,5 @@ const deliveries = [
     ]
   }
 ];
+
 
