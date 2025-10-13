@@ -2,43 +2,43 @@
 const deliveries = [
   {
     trackingCode: "R6789654RFE",
-    estimatedDelivery: "2025-08-19T11:00:00Z",
-    customs: "Custom cleared, Via Roma 20, Rome, Italy, 00100",
+    estimatedDelivery: "13-10-2025",
+    customs: "",
     shipper: {
-      name: "Italia Shipping",
-      phone: "+39 06 1234567",
-      address: "Via Roma 20, Rome, Italy",
-      email: "support@italiashipping.it"
+      name: "ELEMIS",
+      phone: "+44 7832 933672",
+      address: "1 Baker St, London W1U 8ED, United Kingdom",
+      email: "elemisinfluencerpartnership.uk@gmail.com"
     },
     receiver: {
-      name: "Olena Kovalenko",
-      phone: "+380 50 876 5432",
-      address: "Dniprovska St, 8, Kyiv, Ukraine, 02000",
-      email: "olena.k@example.com"
+      name: "Natasha Patel",
+      phone: "+44 7730675328",
+      address: "21 Kent road, Salisbury, sp2 8hn Kent road",
+      email: "natashayoung25@hotmail.co.uk"
     },
     shipment: {
-      weight: "3.5 kg",
-      courier: "ItalyFast",
-      packages: "Box",
+      weight: "4.0 kg",
+      courier: "NOVA",
+      packages: "Pr Package",
       mode: "Air",
-      product: "Gifts",
-      quantity: 3,
-      paymentMode: "Bank transfer",
-      totalFreight: "$120",
-      carrier: "Alitalia Cargo",
-      carrierRef: "IT55667788",
-      departureTime: "07:00",
-      origin: "Rome (FCO)",
-      destination: "Kyiv (KBP)",
-      pickupDate: "2025-08-15",
+      product: "Skincare Products",
+      quantity: 20,
+      paymentMode: "Apple Pay",
+      totalFreight: "$220",
+      carrier: "Air Carrier (Nova445763222)",
+      carrierRef: "UK55667788",
+      departureTime: "12:00",
+      origin: "LONDON",
+      destination: "United Kingdom",
+      pickupDate: "13-10-2025",
       pickupTime: "05:00",
-      status: "Shipment Pending",
+      status: "Accepted",
       comments: "Package prepared for shipment",
-      agentName: "Luca Rossi",
-      shipmentType: "Air"
+      agentName: "Jason Moore",
+      shipmentType: "Air Express"
     },
     events: [
-      { time: "2025-08-15T03:00:00Z", status: "Shipment information received", location: "Via Roma 20, Rome, IT", coords: [41.9028, 12.4964], details: "Label created and pickup scheduled" },
+      { time: "2025-08-15T03:00:00Z", status: "Shipment information received", location: "London Stansted Airport (STN), Bassingbourn Rd, Stansted CM24 1QW, United Kingdom", coords: [51.8850, 0.2350], details: "Label created and pickup scheduled" },
       { time: "2025-08-15T07:30:00Z", status: "Picked up", location: "Rome Sorting Center", coords: [41.9022, 12.4539], details: "Accepted at local facility" },
     ]
   },
@@ -521,3 +521,4 @@ const deliveries = [
     ]
   }
 ];
+
