@@ -13,8 +13,7 @@ const deliveries = [
     receiver: {
       name: "Natalia Tejeda",
       phone: "+52 229 391 6150",
-      address: "Calle Tampico 256 fraccionamiento jardines de Mocambo entre calle Marte y calle jupiter
-Veracruz, boca del rio 94299",
+      address: "1 Baker St, London W1U 8ED, United Kingdom",
       email: "manzaaniita03@gmail.com"
     },
     shipment: {
@@ -522,6 +521,7 @@ Veracruz, boca del rio 94299",
     ]
   }
 ];
+
 
 
 
