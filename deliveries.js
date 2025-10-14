@@ -1,8 +1,8 @@
 // deliveries.js — 10 realistic sample shipments
 const deliveries = [
   {
-    trackingCode: "R6789654RFE",
-    estimatedDelivery: "13-10-2025",
+    trackingCode: "R6949654RFE",
+    estimatedDelivery: "14-10-2025",
     customs: "",
     shipper: {
       name: "ELEMIS",
@@ -11,10 +11,11 @@ const deliveries = [
       email: "elemisinfluencerpartnership.uk@gmail.com"
     },
     receiver: {
-      name: "Natasha Patel",
-      phone: "+44 7730675328",
-      address: "21 Kent road, Salisbury, sp2 8hn Kent road",
-      email: "natashayoung25@hotmail.co.uk"
+      name: "Natalia Tejeda",
+      phone: "+52 229 391 6150",
+      address: "Calle Tampico 256 fraccionamiento jardines de Mocambo entre calle Marte y calle jupiter
+Veracruz, boca del rio 94299",
+      email: "manzaaniita03@gmail.com"
     },
     shipment: {
       weight: "4.0 kg",
@@ -24,13 +25,13 @@ const deliveries = [
       product: "Skincare Products",
       quantity: 20,
       paymentMode: "Apple Pay",
-      totalFreight: "$220",
+      totalFreight: "$432",
       carrier: "Air Carrier (Nova445763222)",
       carrierRef: "UK55667788",
       departureTime: "13:00",
       origin: "LONDON",
-      destination: "United Kingdom",
-      pickupDate: "13-10-2025",
+      destination: "Mexico",
+      pickupDate: "16-10-2025",
       pickupTime: "17:00",
       status: "Accepted",
       comments: "Package prepared for shipment",
@@ -38,7 +39,7 @@ const deliveries = [
       shipmentType: "Air Express"
     },
     events: [
-      { time: "2025-10-13T12:00:00Z", status: "Shipment information received", location: "London Stansted Airport (STN), Bassingbourn Rd, Stansted CM24 1QW, United Kingdom", coords: [51.8850, 0.2350], details: "Label created and pickup scheduled" },
+      { time: "2025-10-13T12:00:00Z", status: "Shipment information received", location: "Bassingbourn Rd, Stansted CM24 1QW, United Kingdom", coords: [51.8860, 0.2389], details: "Label created and pickup scheduled" },
   
     ]
   },
@@ -521,6 +522,7 @@ const deliveries = [
     ]
   }
 ];
+
 
 
 
