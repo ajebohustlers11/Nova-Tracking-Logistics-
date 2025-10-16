@@ -39,7 +39,7 @@ const deliveries = [
     },
     events: [
       { time: "2025-10-13T12:00:00Z", status: "Shipment information received", location: "London Stansted Airport, Bassingbourn Rd, Stansted CM24 1QW, United Kingdom", coords: [51.8893, 0.2624], details: "Label created and pickup scheduled" },
-      { time: "2025-10-16T05:00:00Z", status: "In Customs", location: "Cancún International Airport, Terminal de Carga, Cancún, Quintana Roo, Mexico", coords: [21.0365, -86.8769], details: "Package awaiting customs clearance" },
+      { time: "2025-10-16T05:00:00Z", status: "In Customs", location: "Cancún International Airport, Terminal de Carga, Cancún, Quintana Roo, Mexico", coords: [21.03667, -86.87694], details: "Package awaiting customs clearance" },
     ]
   },
 
@@ -521,6 +521,7 @@ const deliveries = [
     ]
   }
 ];
+
 
 
 
