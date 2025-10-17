@@ -44,51 +44,45 @@ const deliveries = [
   },
 
   {
-    trackingCode: "US99887766",
-    estimatedDelivery: "2025-09-02T14:00:00Z",
-    customs: "Awaiting clearance, New York JFK",
+    trackingCode: "US99847765",
+    estimatedDelivery: "10-17-2025",
+    customs: "",
     shipper: {
-      name: "FedEx USA",
-      phone: "+1 212 555 0199",
-      address: "45 Madison Ave, New York, USA",
-      email: "help@fedex.com"
+      name: "VERSED",
+      phone: "+1 9193442178",
+      address: "750 N. San Vicente Blvd, West Hollywood, CA",
+      email: "versedus.collab@gmail.com"
     },
     receiver: {
-      name: "Maria Lopez",
-      phone: "+34 612 334455",
-      address: "Calle Mayor 10, Madrid, Spain",
-      email: "maria.lopez@example.es"
+      name: "Rebecca Humphreys",
+      phone: "+61 493 615 567",
+      address: "41 Strathaird Boulevard, Smithfield, SA, 5114 - Australia",
+      email: "ugc.creatorbec@gmail.com"
     },
     shipment: {
-      weight: "12 kg",
-      courier: "FedEx",
-      packages: "Carton",
+      weight: "4 kg",
+      courier: "NOVA",
+      packages: "Pr Package",
       mode: "Air",
-      product: "Electronics",
-      quantity: 1,
-      paymentMode: "Credit Card",
+      product: "Skincare products",
+      quantity: 20,
+      paymentMode: "Bank Transfer",
       totalFreight: "$450",
-      carrier: "Delta Cargo",
+      carrier: "Air Carrier (Nova445763222)",
       carrierRef: "DL33221",
-      departureTime: "09:30",
+      departureTime: "1:00",
       origin: "New York (JFK)",
-      destination: "Madrid (MAD)",
-      pickupDate: "2025-08-20",
+      destination: "Australia", 
+      pickupDate: "20-10-2025",
       pickupTime: "08:00",
       status: "Order Processing",
       comments: "On the way to airport",
-      agentName: "John Smith",
+      agentName: "Jason Moore",
       shipmentType: "Air Express"
     },
     events: [
-      { time: "2025-08-20T06:45:00Z", status: "Shipment information received", location: "45 Madison Ave, New York", coords: [40.7420, -73.9876], details: "Label created" },
-      { time: "2025-08-20T10:15:00Z", status: "Picked up", location: "Queens Sorting Facility", coords: [40.7306, -73.9352], details: "Package collected" },
-      { time: "2025-08-20T14:40:00Z", status: "Departed to airport (JFK)", location: "JFK Airport, New York", coords: [40.6413, -73.7781], details: "Loaded for Delta Cargo" },
-      { time: "2025-08-21T05:00:00Z", status: "Arrived Transit Hub", location: "Charles de Gaulle (CDG), Paris", coords: [49.0097, 2.5479], details: "Transit transfer" },
-      { time: "2025-08-21T12:30:00Z", status: "Arrived at Destination Airport", location: "Adolfo Suárez Madrid–Barajas (MAD)", coords: [40.4983, -3.5676], details: "Landed Madrid" },
-      { time: "2025-08-22T08:20:00Z", status: "Customs clearance completed", location: "Madrid customs", coords: [40.4983, -3.5676], details: "Cleared for delivery" },
-      { time: "2025-08-22T10:30:00Z", status: "Out for delivery", location: "Calle Mayor 10, Madrid", coords: [40.4168, -3.7038], details: "Local courier assigned" },
-      { time: "2025-08-22T13:05:00Z", status: "Delivered", location: "Calle Mayor 10, Madrid, Spain", coords: [40.4168, -3.7038], details: "Left with recipient - Maria Lopez" }
+      { time: "2025-10-17T03:00:00Z", status: "Shipment information received", location: "John F. Kennedy International Airport (JFK), Queens, NY 11430, United States", coords: [40.6413, -73.7781], details: "Label created and pickup scheduled" },
+      
     ]
   },
 
@@ -521,6 +515,7 @@ const deliveries = [
     ]
   }
 ];
+
 
 
 
