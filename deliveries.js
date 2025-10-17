@@ -81,7 +81,7 @@ const deliveries = [
       shipmentType: "Air Express"
     },
     events: [
-      { time: "2025-10-17T03:00:00Z", status: "Shipment information received", location: "John F. Kennedy International Airport (JFK), Queens, NY 11430, United States", coords: [40.641766, -73.780968], details: "Label created and pickup scheduled" },
+      { time: "2025-10-17T03:00:00Z", status: "Shipment information received", location: "John F. Kennedy International Airport (JFK), Queens, NY 11430, United States", coords: [40.6413, -73.7781], details: "Label created and pickup scheduled" },
       
     ]
   },
@@ -515,6 +515,7 @@ const deliveries = [
     ]
   }
 ];
+
 
 
 
