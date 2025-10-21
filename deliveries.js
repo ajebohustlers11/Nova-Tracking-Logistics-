@@ -3,7 +3,7 @@ const deliveries = [
   {
     trackingCode: "R6949654RFE",
     estimatedDelivery: "14-10-2025",
-    customs: "",
+    customs: "customs clearance compeleted package released for delivery",
     shipper: {
       name: "ELEMIS",
       phone: "+44 7832 933672",
@@ -39,7 +39,7 @@ const deliveries = [
     },
     events: [
       { time: "2025-10-13T12:00:00Z", status: "Shipment information received", location: "London Stansted Airport, Bassingbourn Rd, Stansted CM24 1QW, United Kingdom", coords: [51.8893, 0.2624], details: "Label created and pickup scheduled" },
-      { time: "2025-10-16T05:00:00Z", status: "In Customs", location: "Cancún International Airport – Cargo / Customs Facility, Cancún, Quintana Roo, Mexico", coords: [21.0365, -86.8771], details: "Package awaiting customs clearance" },
+      { time: "2025-10-16T05:00:00Z", status: "cleared by customs", location: "Cancún International Airport – Cargo / Customs Facility, Cancún, Quintana Roo, Mexico", coords: [21.0365, -86.8771], details: "customs clearance completed" },
     ]
   },
 
@@ -515,6 +515,7 @@ const deliveries = [
     ]
   }
 ];
+
 
 
 
