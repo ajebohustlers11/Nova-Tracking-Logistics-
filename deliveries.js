@@ -32,7 +32,7 @@ const deliveries = [
       destination: "Mexico",
       pickupDate: "16-10-2025",
       pickupTime: "17:00",
-      status: "Accepted",
+      status: "custom cleared",
       comments: "Package prepared for shipment",
       agentName: "Jason Moore",
       shipmentType: "Air Express"
@@ -515,6 +515,7 @@ const deliveries = [
     ]
   }
 ];
+
 
 
 
