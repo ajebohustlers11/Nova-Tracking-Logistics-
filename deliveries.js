@@ -44,36 +44,36 @@ const deliveries = [
   },
 
   {
-    trackingCode: "US99847765",
-    estimatedDelivery: "10-17-2025",
+    trackingCode: "US99887765",
+    estimatedDelivery: "11-10-2025",
     customs: "",
     shipper: {
-      name: "VERSED",
+      name: "NOVA",
       phone: "+1 9193442178",
-      address: "750 N. San Vicente Blvd, West Hollywood, CA",
-      email: "versedus.collab@gmail.com"
+      address: "350 Fifth Avenue, 59th Floor New York, NY 10118, USA",
+      email: "novashippinglogistics.agency@gmail.com"
     },
     receiver: {
-      name: "Rebecca Humphreys",
-      phone: "+61 493 615 567",
-      address: "41 Strathaird Boulevard, Smithfield, SA, 5114 - Australia",
-      email: "ugc.creatorbec@gmail.com"
+      name: "Carson ogle",
+      phone: "+1 (478) 234-3952",
+      address: "2205 Fox Creek Dr Haddock Ga",
+      email: "carsonogle1@gmail.com"
     },
     shipment: {
-      weight: "4 kg",
+      weight: "4.5 kg",
       courier: "NOVA",
-      packages: "Pr Package",
+      packages: "Epic Gamer Pack",
       mode: "Air",
-      product: "Skincare products",
-      quantity: 20,
-      paymentMode: "Bank Transfer",
-      totalFreight: "$450",
+      product: "PlayStation 5",
+      quantity: 1,
+      paymentMode: "Nill",
+      totalFreight: "$200",
       carrier: "Air Carrier (Nova445763222)",
       carrierRef: "DL33221",
       departureTime: "1:00",
       origin: "New York (JFK)",
-      destination: "Australia", 
-      pickupDate: "20-10-2025",
+      destination: "Georgia", 
+      pickupDate: "11-11-2025",
       pickupTime: "08:00",
       status: "Order Processing",
       comments: "On the way to airport",
@@ -515,6 +515,7 @@ const deliveries = [
     ]
   }
 ];
+
 
 
 
