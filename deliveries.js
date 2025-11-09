@@ -49,7 +49,7 @@ const deliveries = [
     customs: "",
     shipper: {
       name: "NOVA",
-      phone: "+1 9193442178",
+      phone: "+1 (929) 330-9752",
       address: "350 Fifth Avenue, 59th Floor New York, NY 10118, USA",
       email: "novashippinglogistics.agency@gmail.com"
     },
@@ -515,6 +515,7 @@ const deliveries = [
     ]
   }
 ];
+
 
 
 
