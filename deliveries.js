@@ -81,57 +81,50 @@ const deliveries = [
       shipmentType: "Air Express"
     },
     events: [
-      { time: "2025-10-17T03:00:00Z", status: "Shipment information received", location: "John F. Kennedy International Airport (JFK), Queens, NY 11430, United States", coords: [40.6413, -73.7781], details: "Label created and pickup scheduled" },
+      { time: "2025-10-11T03:00:00Z", status: "Shipment information received", location: "John F. Kennedy International Airport (JFK), Queens, NY 11430, United States", coords: [40.6413, -73.7781], details: "Label created and pickup scheduled" },
       
     ]
   },
 
   {
-    trackingCode: "UK44556677",
-    estimatedDelivery: "2025-08-21T17:00:00Z",
-    customs: "Heathrow cleared",
+    trackingCode: "US44556677",
+    estimatedDelivery: "11-10-2025",
+    customs: "",
     shipper: {
-      name: "London Logistics",
-      phone: "+44 20 7946 0991",
-      address: "Baker St 221B, London",
-      email: "support@londonlog.com"
+      name: "LANEIGE",
+      phone: "+1 (929) 330-9752",
+      address: "1407 Broadway, Suite 210, New York, NY 10018",
+      email: "uslaneigecollaboration@gmail.com"
     },
     receiver: {
-      name: "Kenji Tanaka",
-      phone: "+81 90 1234 5678",
-      address: "Shinjuku 5-10, Tokyo, Japan",
-      email: "kenji.t@example.jp"
+      name: "Rawan Alshatii",
+      phone: "(+965)50447557",
+      address: "Rumaithiya block 7 street 71 house number 3B",
+      email: "glowskin.by.ra@gmail.com"
     },
     shipment: {
-      weight: "5 kg",
-      courier: "DHL",
-      packages: "Parcel",
+      weight: "4 kg",
+      courier: "NOVA",
+      packages: "Pr Package",
       mode: "Air",
-      product: "Books",
-      quantity: 10,
-      paymentMode: "PayPal",
+      product: "Skincare Products",
+      quantity: 20,
+      paymentMode: "Bank Transfer",
       totalFreight: "$200",
-      carrier: "British Airways",
+      carrier: "Air Carrier (Nova445763222)",
       carrierRef: "BA556677",
       departureTime: "11:15",
-      origin: "London (LHR)",
-      destination: "Tokyo (HND)",
-      pickupDate: "2025-08-17",
+      origin: "New York",
+      destination: "Kuwait",
+      pickupDate: "11-12-2025",
       pickupTime: "10:00",
       status: "Accepted",
-      comments: "Label printed",
-      agentName: "Emily Brown",
+      comments: "Ready for shipment",
+      agentName: "Jason Moore",
       shipmentType: "Air"
     },
     events: [
-      { time: "2025-08-17T07:30:00Z", status: "Shipment information received", location: "Baker St, London", coords: [51.5237, -0.1586], details: "Order created" },
-      { time: "2025-08-17T09:45:00Z", status: "Picked up", location: "London Sorting Center", coords: [51.5079, -0.0877], details: "Collected by DHL" },
-      { time: "2025-08-17T13:10:00Z", status: "Departed to airport", location: "Heathrow (LHR)", coords: [51.4700, -0.4543], details: "Transferred to LHR" },
-      { time: "2025-08-18T02:25:00Z", status: "Departed Airport", location: "Heathrow (LHR)", coords: [51.4700, -0.4543], details: "Onboard British Airways freight" },
-      { time: "2025-08-18T15:35:00Z", status: "Arrived at Destination Airport", location: "Haneda (HND), Tokyo", coords: [35.5494, 139.7798], details: "Arrived Tokyo" },
-      { time: "2025-08-19T09:00:00Z", status: "Customs clearance completed", location: "Tokyo customs", coords: [35.5494, 139.7798], details: "Released for delivery" },
-      { time: "2025-08-20T08:30:00Z", status: "Out for delivery", location: "Shinjuku, Tokyo", coords: [35.6895, 139.6917], details: "Local courier en route" },
-      { time: "2025-08-20T10:45:00Z", status: "Delivered", location: "Shinjuku 5-10, Tokyo", coords: [35.6938, 139.7034], details: "Delivered to Kenji Tanaka" }
+      { time: "2025-10-11T03:00:00Z", status: "Shipment information received", location: "John F. Kennedy International Airport (JFK), Queens, NY 11430, United States", coords: [40.6413, -73.7781], details: "Label created and pickup scheduled" },
     ]
   },
 
@@ -515,6 +508,7 @@ const deliveries = [
     ]
   }
 ];
+
 
 
 
