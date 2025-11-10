@@ -109,7 +109,7 @@ const deliveries = [
       mode: "Air",
       product: "Skincare Products",
       quantity: 20,
-      paymentMode: "Bank Transfer",
+      paymentMode: "Nill",
       totalFreight: "$200",
       carrier: "Air Carrier (Nova445763222)",
       carrierRef: "BA556677",
@@ -508,6 +508,7 @@ const deliveries = [
     ]
   }
 ];
+
 
 
 
