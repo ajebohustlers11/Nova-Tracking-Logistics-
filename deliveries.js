@@ -119,12 +119,13 @@ const deliveries = [
       pickupDate: "11-12-2025",
       pickupTime: "10:00",
       status: "Accepted",
-      comments: "Ready for shipment",
+      comments: "shpped",
       agentName: "Jason Moore",
       shipmentType: "Air"
     },
     events: [
       { time: "2025-10-11T03:00:00Z", status: "Shipment information received", location: "John F. Kennedy International Airport (JFK), Queens, NY 11430, United States", coords: [40.6413, -73.7781], details: "Label created and pickup scheduled" },
+      { time: "2025-12-11T10:00:00Z", status: "Delivered", location: "Kuwait International Airport (KWI), Farwaniya, Kuwait", coords: [29.2266, 47.9689], details: "Package successfully delivered and received at Kuwait International Airport" },
     ]
   },
 
@@ -508,6 +509,7 @@ const deliveries = [
     ]
   }
 ];
+
 
 
 
