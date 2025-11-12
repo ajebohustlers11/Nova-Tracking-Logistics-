@@ -118,7 +118,7 @@ const deliveries = [
       destination: "Kuwait",
       pickupDate: "11-12-2025",
       pickupTime: "10:00",
-      status: "Accepted",
+      status: "Order Processing",
       comments: "shipped",
       agentName: "Jason Moore",
       shipmentType: "Air"
@@ -509,6 +509,7 @@ const deliveries = [
     ]
   }
 ];
+
 
 
 
