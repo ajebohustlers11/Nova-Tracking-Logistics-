@@ -74,7 +74,7 @@ const deliveries = [
       destination: "Canada", 
       origin: "London",
       pickupDate: "01-12-2025",
-      pickupTimez: "12:00",
+      pickupTime: "12:00",
       status: "Accepted",
       comments: "On the way to airport",
       agentName: "Jason Moore",
@@ -509,6 +509,7 @@ const deliveries = [
     ]
   }
 ];
+
 
 
 
