@@ -45,7 +45,7 @@ const deliveries = [
 
   {
     trackingCode: "UK59857765",
-    estimatedDelivery: "11-10-2025",
+    estimatedDelivery: "01-12-2025",
     customs: "",
     shipper: {
       name: "NOVA",
@@ -81,7 +81,7 @@ const deliveries = [
       shipmentType: "Air Express"
     },
     events: [
-      { time: "2025-10-11T03:00:00Z", status: "In flight to Canada", location: "International Airspace en route to Canada", coords: [53.0, -60.0], details: "Shipment has departed and is currently in flight to Canada" },
+      { time: "2025-11-30T03:00:00Z", status: "In flight to Canada", location: "International Airspace en route to Canada", coords: [53.0, -60.0], details: "Shipment has departed and is currently in flight to Canada" },
       
     ]
   },
@@ -509,6 +509,7 @@ const deliveries = [
     ]
   }
 ];
+
 
 
 
