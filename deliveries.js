@@ -76,7 +76,7 @@ const deliveries = [
       pickupDate: "01-12-2025",
       pickupTime: "12:00",
       status: "Accepted",
-      comments: "On the way to airport",
+      comments: "Shipment departed and is currently in flight to Canada",
       agentName: "Jason Moore",
       shipmentType: "Air Express"
     },
@@ -509,6 +509,7 @@ const deliveries = [
     ]
   }
 ];
+
 
 
 
