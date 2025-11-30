@@ -44,44 +44,44 @@ const deliveries = [
   },
 
   {
-    trackingCode: "US99887765",
+    trackingCode: "UK59857765",
     estimatedDelivery: "11-10-2025",
     customs: "",
     shipper: {
       name: "NOVA",
-      phone: "+1 (929) 330-9752",
-      address: "350 Fifth Avenue, 59th Floor New York, NY 10118, USA",
-      email: "novashippinglogistics.agency@gmail.com"
+      phone: "+44 7832 933672",
+      address: "8 Surrey St,Temple,London WC2R 2ND,United Kingdom",
+      email: "charlottetilbury.influencers@gmail.com"
     },
     receiver: {
-      name: "Carson ogle",
-      phone: "+1 (478) 234-3952",
-      address: "2205 Fox Creek Dr Haddock Ga",
-      email: "carsonogle1@gmail.com"
+      name: "Valleyestella",
+      phone: "+1 2262684713",
+      address: "7080 Century Drive Melbourne Ontario N0L1T0 Canada",
+      email: "valley1616@outlook.com"
     },
     shipment: {
       weight: "4.5 kg",
       courier: "NOVA",
-      packages: "Epic Gamer Pack",
+      packages: "Pr Package",
       mode: "Air",
-      product: "PlayStation 5",
-      quantity: 1,
-      paymentMode: "Nill",
-      totalFreight: "$200",
+      product: "skincare/makeup products",
+      quantity: 20,
+      paymentMode: "Paypal",
+      totalFreight: "$300",
       carrier: "Air Carrier (Nova445763222)",
       carrierRef: "DL33221",
       departureTime: "1:00",
-      origin: "New York (JFK)",
-      destination: "Georgia", 
-      pickupDate: "11-11-2025",
-      pickupTime: "08:00",
-      status: "Order Processing",
+      destination: "Canada", 
+      origin: "London",
+      pickupDate: "2025-12-01",
+      pickupTimez: "08:00",
+      status: "Accepted",
       comments: "On the way to airport",
       agentName: "Jason Moore",
       shipmentType: "Air Express"
     },
     events: [
-      { time: "2025-10-11T03:00:00Z", status: "Shipment information received", location: "John F. Kennedy International Airport (JFK), Queens, NY 11430, United States", coords: [40.6413, -73.7781], details: "Label created and pickup scheduled" },
+      { time: "2025-10-11T03:00:00Z", status: "In flight to Canada", location: "International Airspace en route to Canada", coords: [53.0, -60.0], details: "Shipment has departed and is currently in flight to Canada" },
       
     ]
   },
@@ -509,6 +509,7 @@ const deliveries = [
     ]
   }
 ];
+
 
 
 
