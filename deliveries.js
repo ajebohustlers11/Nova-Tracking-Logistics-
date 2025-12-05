@@ -82,7 +82,7 @@ const deliveries = [
     },
     events: [
       { time: "2025-11-30T03:00:00Z", status: "In flight to Canada", location: "International Airspace en route to Canada", coords: [53.0, -60.0], details: "Shipment has departed and is currently in flight to Canada" },
-      
+      { time: "2025-12-01T05:00:00Z", status: "Awaiting customs clearance", location: "Vancouver International Airport (YVR)", coords: [49.1947, -123.1792], details: "Package has arrived at YVR and is pending customs processing" },
     ]
   },
 
@@ -509,6 +509,7 @@ const deliveries = [
     ]
   }
 ];
+
 
 
 
