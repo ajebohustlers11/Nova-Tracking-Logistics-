@@ -110,7 +110,7 @@ const deliveries = [
       product: "Skincare Products",
       quantity: 20,
       paymentMode: "Nill",
-      totalFreight: "$200",
+      totalFreight: "€200",
       carrier: "Air Carrier (Nova445763222)",
       carrierRef: "BA556677",
       departureTime: "11:15",
@@ -172,49 +172,44 @@ const deliveries = [
   },
 
  {
-    trackingCode: "DE55443322",
-    estimatedDelivery: "2025-08-30T19:00:00Z",
-    customs: "Cleared, Berlin",
+    trackingCode: "US554437569",
+    estimatedDelivery: "12-06-2025T10:00:00Z",
+    customs: "",
     shipper: {
-      name: "Berlin Freight",
-      phone: "+49 30 123456",
-      address: "Alexanderplatz, Berlin",
-      email: "support@berlinfreight.de"
+      name: "CETAPHIL",
+      phone: "+1 (929) 330-9752 ",
+      address: "Brickell City Centre (78 S.W. Seventh St.)",
+      email: "cetaphilskincarecollaborations@gmail.com"
     },
     receiver: {
-      name: "Pierre Dubois",
-      phone: "+33 612 998877",
-      address: "Rue de Rivoli, Paris",
-      email: "pierre.d@example.fr"
+      name: "Amitfurman",
+      phone: "+1 206 354 4647",
+      address: "41814 n spy glass dr anthem Arizona 85086 USA",
+      email: "Amitfurman23@gmail.com"
     },
     shipment: {
-      weight: "7 kg",
-      courier: "Hermes",
-      packages: "Envelope",
-      mode: "Ground",
-      product: "Documents",
-      quantity: 1,
-      paymentMode: "Cash on delivery",
-      totalFreight: "€90",
-      carrier: "DB Schenker",
-      carrierRef: "DB5566",
+      weight: "4.5 kg",
+      courier: "NOVA",
+      packages: "Pr package",
+      mode: "Air",
+      product: "skincare",
+      quantity: 30,
+      paymentMode: "Zelle",
+      totalFreight: "$350",
+      carrier: "Air Carrier (Nova445763222)",
+      carrierRef: "AC445763222",
       departureTime: "06:00",
-      origin: "Berlin (BER)",
-      destination: "Paris (CDG)",
+      origin: "Florida",
+      destination: "Arizona",
       pickupDate: "2025-08-18",
       pickupTime: "05:30",
-      status: "Custom cleared",
+      status: "Accepted",
       comments: "In transit",
-      agentName: "Hans Müller",
-      shipmentType: "Ground"
+      agentName: "Jason Moore",
+      shipmentType: "Air Cargo"
     },
     events: [
-      { time: "2025-08-18T04:00:00Z", status: "Shipment information received", location: "Alexanderplatz, Berlin", coords: [52.5219, 13.4132], details: "Docs ready" },
-      { time: "2025-08-18T06:40:00Z", status: "Picked up", location: "Berlin Central Hub", coords: [52.5206, 13.4094], details: "Accepted at hub" },
-      { time: "2025-08-18T12:15:00Z", status: "In transit", location: "On route to France", coords: [50.1109, 8.6821], details: "Cross-border road transport" },
-      { time: "2025-08-19T08:35:00Z", status: "Arrived Transit Hub", location: "Reims Transit", coords: [49.2583, 4.0317], details: "Sorting" },
-      { time: "2025-08-19T14:20:00Z", status: "Out for delivery", location: "Rue de Rivoli, Paris", coords: [48.8566, 2.3522], details: "Local drop scheduled" },
-      { time: "2025-08-19T15:05:00Z", status: "Delivered", location: "Rue de Rivoli, Paris, France", coords: [48.8566, 2.3522], details: "Delivered to Pierre Dubois" }
+      { time: "2025-12-06T04:00:00Z", status: "Shipment in transit", location: "Airborne from Florida to Arizona, USA", coords: [28.5383, -81.3792], details: "Shipment en route via flight" },
     ]
   },
 
@@ -504,6 +499,7 @@ const deliveries = [
     ]
   }
 ];
+
 
 
 
