@@ -76,7 +76,7 @@ const deliveries = [
       pickupDate: "01-12-2025",
       pickupTime: "12:00",
       status: "Accepted",
-      comments: "Shipment departed and is currently in flight to Canada",
+      comments: "Awaiting customs documents",
       agentName: "Jason Moore",
       shipmentType: "Air Express"
     },
@@ -130,53 +130,48 @@ const deliveries = [
   },
 
   {
-    trackingCode: "CA88997766",
-    estimatedDelivery: "2025-09-05T09:00:00Z",
-    customs: "Pending clearance, Toronto",
+    trackingCode: "UK839945766",
+    estimatedDelivery: "06-12-2025:11:00Z",
+    customs: "Pending clearance",
     shipper: {
-      name: "Canada Express",
-      phone: "+1 416 555 2299",
-      address: "123 King St W, Toronto",
-      email: "info@canexpress.ca"
+      name: "charlottetilbury",
+      phone: "+44 7832 933672",
+      address: "8 Surrey St,Temple,London WC2R 2ND,United Kingdom",
+      email: "charlottetilbury.influencers@gmail.com"
     },
     receiver: {
-      name: "Ahmed Hassan",
-      phone: "+20 100 222 3344",
-      address: "Tahrir Square, Cairo, Egypt",
-      email: "ahmed.h@example.eg"
+      name: "Faiqa",
+      phone: "+923366527821",
+      address: "Pakistan (Sargodha) Home address: House no 17, Street no 18, Block X New satellite town near Bab-e-haram",
+      email: "faiqaqamar4@gmail.com"
     },
     shipment: {
-      weight: "25 kg",
-      courier: "UPS",
-      packages: "Crate",
+      weight: "4.2 kg",
+      courier: "NOVA",
+      packages: "Pr Package",
       mode: "Air",
-      product: "Machinery parts",
-      quantity: 2,
-      paymentMode: "Wire Transfer",
+      product: "skincare/makeup products",
+      quantity: 20,
+      paymentMode: "Bank Transfer",
       totalFreight: "$1,200",
-      carrier: "Air Canada",
+      carrier: "Air Carrier (Nova445763222)",
       carrierRef: "AC8899",
       departureTime: "15:20",
-      origin: "Toronto (YYZ)",
-      destination: "Cairo (CAI)",
-      pickupDate: "2025-08-22",
+      origin: "London",
+      destination: "pakistan",
+      pickupDate: "06-12-2025",
       pickupTime: "07:00",
       status: "Shipment Pending",
       comments: "Awaiting customs documents",
-      agentName: "Sophia Johnson",
+      agentName: "Jason Moore",
       shipmentType: "Air Cargo"
     },
     events: [
-      { time: "2025-08-22T05:10:00Z", status: "Shipment information received", location: "123 King St W, Toronto", coords: [43.6486, -79.3859], details: "Booking created" },
-      { time: "2025-08-22T08:30:00Z", status: "Picked up", location: "Toronto Sorting Center", coords: [43.6777, -79.6248], details: "Accepted at facility" },
-      { time: "2025-08-22T14:55:00Z", status: "Departed to airport", location: "Toronto Pearson (YYZ)", coords: [43.6777, -79.6248], details: "Loaded to Air Canada freighter" },
-      { time: "2025-08-23T04:20:00Z", status: "Arrived Transit Hub", location: "Istanbul Airport (IST)", coords: [41.2753, 28.7519], details: "Transit stop" },
-      { time: "2025-08-23T13:10:00Z", status: "Arrived at Destination Airport", location: "Cairo International (CAI)", coords: [30.1120, 31.4004], details: "Landed Cairo" },
-      { time: "2025-08-24T09:40:00Z", status: "Customs hold", location: "Cairo Customs", coords: [30.1120, 31.4004], details: "Awaiting documentation" }
+      { time: "2025-12-06T09:40:00Z", status: "Customs hold", location: "Jinnah International Airport – Customs (KHI), Karachi, Pakistan", coords: [24.9065, 67.1608], details: "Awaiting documentation" }
     ]
   },
 
-  {
+ {
     trackingCode: "DE55443322",
     estimatedDelivery: "2025-08-30T19:00:00Z",
     customs: "Cleared, Berlin",
@@ -509,6 +504,7 @@ const deliveries = [
     ]
   }
 ];
+
 
 
 
