@@ -87,8 +87,8 @@ const deliveries = [
   },
 
   {
-    trackingCode: "US44556677",
-    estimatedDelivery: "11-10-2025",
+    trackingCode: "US4867556677",
+    estimatedDelivery: "06-12-2025",
     customs: "",
     shipper: {
       name: "LANEIGE",
@@ -97,26 +97,26 @@ const deliveries = [
       email: "uslaneigecollaboration@gmail.com"
     },
     receiver: {
-      name: "Rawan Alshatii",
-      phone: "(+965)50447557",
-      address: "Rumaithiya block 7 street 71 house number 3B",
-      email: "glowskin.by.ra@gmail.com"
+      name: "Daniel Reicheld",
+      phone: "+4915255747331",
+      address: "Bad Ems 56130 Winterbergstr.25 Germany",
+      email: "contact@ugcbydaniel.com"
     },
     shipment: {
-      weight: "4 kg",
+      weight: "4.5 kg",
       courier: "NOVA",
       packages: "Pr Package",
       mode: "Air",
       product: "Skincare Products",
       quantity: 20,
       paymentMode: "Nill",
-      totalFreight: "€200",
+      totalFreight: "$200",
       carrier: "Air Carrier (Nova445763222)",
       carrierRef: "BA556677",
       departureTime: "11:15",
       origin: "New York",
-      destination: "Kuwait",
-      pickupDate: "11-12-2025",
+      destination: "Germany",
+      pickupDate: "8-12-2025",
       pickupTime: "10:00",
       status: "Order Processing",
       comments: "shipped",
@@ -124,8 +124,7 @@ const deliveries = [
       shipmentType: "Air"
     },
     events: [
-      { time: "2025-10-11T03:00:00Z", status: "Shipment information received", location: "John F. Kennedy International Airport (JFK), Queens, NY 11430, United States", coords: [40.6413, -73.7781], details: "Label created and pickup scheduled" },
-      { time: "2025-12-11T10:00:00Z", status: "Delivered", location: "Kuwait International Airport (KWI), Farwaniya, Kuwait", coords: [29.2266, 47.9689], details: "Package successfully delivered and received at Kuwait International Airport" },
+      { time: "2025-12-06T03:00:00Z", status: "Shipment In transit", location: "Airborne from New York, USA to Germany", coords: [40.7128, -74.0060], details: "Shipment en route via flight, expected arrival in Germany within 2 days" },
     ]
   },
 
@@ -499,6 +498,7 @@ const deliveries = [
     ]
   }
 ];
+
 
 
 
