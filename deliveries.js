@@ -201,7 +201,7 @@ const deliveries = [
       departureTime: "06:00",
       origin: "Florida",
       destination: "Arizona",
-      pickupDate: "2025-08-18",
+      pickupDate: "12-07-2025",
       pickupTime: "05:30",
       status: "Accepted",
       comments: "In transit",
@@ -499,6 +499,7 @@ const deliveries = [
     ]
   }
 ];
+
 
 
 
