@@ -125,6 +125,7 @@ const deliveries = [
     },
     events: [
       { time: "2025-12-06T03:00:00Z", status: "Shipment In transit", location: "Airborne from New York, USA to Germany", coords: [40.7128, -74.0060], details: "Shipment en route via flight, expected arrival in Germany within 2 days" },
+      { time: "2025-12-08T04:00:00Z", status: "Delivered", location: "Munich Airport (MUC), Germany", coords: [48.3538, 11.7861], details: "Shipment has arrived and been successfully delivered" },
     ]
   },
 
@@ -498,6 +499,7 @@ const deliveries = [
     ]
   }
 ];
+
 
 
 
