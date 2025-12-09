@@ -89,7 +89,7 @@ const deliveries = [
   {
     trackingCode: "US4867556677",
     estimatedDelivery: "06-12-2025",
-    customs: "",
+    customs: "Pending clearance",
     shipper: {
       name: "LANEIGE",
       phone: "+1 (929) 330-9752",
@@ -130,44 +130,44 @@ const deliveries = [
   },
 
   {
-    trackingCode: "UK839945766",
-    estimatedDelivery: "06-12-2025:11:00Z",
-    customs: "Pending clearance",
+    trackingCode: "US27994576876",
+    estimatedDelivery: "12-09-2025:11:00Z",
+    customs: "",
     shipper: {
-      name: "charlottetilbury",
-      phone: "+44 7832 933672",
-      address: "8 Surrey St,Temple,London WC2R 2ND,United Kingdom",
-      email: "charlottetilbury.influencers@gmail.com"
+      name: "LANEIGE",
+      phone: "+1 (929) 330-9752",
+      address: "1407 Broadway, Suite 210, New York, NY 10018",
+      email: "uslaneigecollaboration@gmail.com"
     },
     receiver: {
-      name: "Faiqa",
-      phone: "+923366527821",
-      address: "Pakistan (Sargodha) Home address: House no 17, Street no 18, Block X New satellite town near Bab-e-haram",
-      email: "faiqaqamar4@gmail.com"
+      name: "Nayrovi Spencer Ubiera",
+      phone: "+1 8495024442",
+      address: "8550 NW 70TH ST, RP-218611, MIAMI, FL 33166-6216",
+      email: "nairobibelic.ugc@gmail.com"
     },
     shipment: {
       weight: "4.2 kg",
       courier: "NOVA",
       packages: "Pr Package",
       mode: "Air",
-      product: "skincare/makeup products",
+      product: "skincare products",
       quantity: 20,
       paymentMode: "Bank Transfer",
-      totalFreight: "$1,200",
+      totalFreight: "$400",
       carrier: "Air Carrier (Nova445763222)",
       carrierRef: "AC8899",
       departureTime: "15:20",
-      origin: "London",
-      destination: "pakistan",
-      pickupDate: "06-12-2025",
+      origin: "NEW YORK",
+      destination: "MIAMI",
+      pickupDate: "12-09-2025",
       pickupTime: "07:00",
-      status: "Shipment Pending",
-      comments: "Awaiting customs documents",
+      status: "Accepted",
+      comments: "shipped",
       agentName: "Jason Moore",
       shipmentType: "Air Cargo"
     },
     events: [
-      { time: "2025-12-06T09:40:00Z", status: "Customs hold", location: "Jinnah International Airport – Customs (KHI), Karachi, Pakistan", coords: [24.9065, 67.1608], details: "Awaiting documentation" }
+      { time: "2025-12-09T09:40:00Z", status: "In Transit", location: "Airborne from New York to Miami, USA", coords: [40.7128, -74.0060], details: "Package en route via flight to Miami" }
     ]
   },
 
@@ -497,8 +497,52 @@ const deliveries = [
       { time: "2025-09-01T07:00:00Z", status: "Customs clearance completed", location: "Rio customs", coords: [-22.8090, -43.2506], details: "Released for delivery" },
       { time: "2025-09-02T09:30:00Z", status: "Out for delivery", location: "Copacabana, Rio", coords: [-22.9711, -43.1822], details: "Local courier" }
     ]
+  },
+
+{
+    trackingCode: "UK839945766",
+    estimatedDelivery: "06-12-2025:11:00Z",
+    customs: "Pending clearance",
+    shipper: {
+      name: "charlottetilbury",
+      phone: "+44 7832 933672",
+      address: "8 Surrey St,Temple,London WC2R 2ND,United Kingdom",
+      email: "charlottetilbury.influencers@gmail.com"
+    },
+    receiver: {
+      name: "Faiqa",
+      phone: "+923366527821",
+      address: "Pakistan (Sargodha) Home address: House no 17, Street no 18, Block X New satellite town near Bab-e-haram",
+      email: "faiqaqamar4@gmail.com"
+    },
+    shipment: {
+      weight: "4.2 kg",
+      courier: "NOVA",
+      packages: "Pr Package",
+      mode: "Air",
+      product: "skincare/makeup products",
+      quantity: 20,
+      paymentMode: "Bank Transfer",
+      totalFreight: "$1,200",
+      carrier: "Air Carrier (Nova445763222)",
+      carrierRef: "AC8899",
+      departureTime: "15:20",
+      origin: "London",
+      destination: "pakistan",
+      pickupDate: "06-12-2025",
+      pickupTime: "07:00",
+      status: "Shipment Pending",
+      comments: "Awaiting customs documents",
+      agentName: "Jason Moore",
+      shipmentType: "Air Cargo"
+    },
+    events: [
+      { time: "2025-12-06T09:40:00Z", status: "Customs hold", location: "Jinnah International Airport – Customs (KHI), Karachi, Pakistan", coords: [24.9065, 67.1608], details: "Awaiting documentation" }
+    ]
   }
 ];
+
+
 
 
 
