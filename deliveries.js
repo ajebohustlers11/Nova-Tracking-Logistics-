@@ -167,7 +167,7 @@ const deliveries = [
       shipmentType: "Air Cargo"
     },
     events: [
-      { time: "2025-12-09T09:40:00Z", status: "Delivered", location: "Miami International Airport (MIA), USA", coords: [25.7959, 80.2870], details: "Package has arrived at Miami International Airport" }
+      { time: "2025-12-09T09:40:00Z", status: "Delivered", location: "Miami International Airport (MIA), USA", coords: [25.7959, -80.2870], details: "Package has arrived at Miami International Airport" }
     ]
   },
 
@@ -541,6 +541,7 @@ const deliveries = [
     ]
   }
 ];
+
 
 
 
