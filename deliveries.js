@@ -132,7 +132,7 @@ const deliveries = [
   {
     trackingCode: "US27994576876",
     estimatedDelivery: "12-09-2025:11:00Z",
-    customs: "",
+    customs: "pending clearance",
     shipper: {
       name: "LANEIGE",
       phone: "+1 (929) 330-9752",
@@ -162,12 +162,13 @@ const deliveries = [
       pickupDate: "12-09-2025",
       pickupTime: "07:00",
       status: "Accepted",
-      comments: "shipped",
+      comments: "Awaiting customs documents",
       agentName: "Jason Moore",
       shipmentType: "Air Cargo"
     },
     events: [
       { time: "2025-12-09T09:40:00Z", status: "In Transit", location: "Airborne from New York to Miami, USA", coords: [40.7128, -74.0060], details: "Package en route via flight to Miami" }
+      { time: "2025-12-09T09:90:00Z", status: "Delivered", location: "Miami International Airport (MIA), USA", coords: [25.7959, -80.2870], details: "Package has arrived and been successfully delivered at Miami International Airport" }
     ]
   },
 
@@ -541,6 +542,7 @@ const deliveries = [
     ]
   }
 ];
+
 
 
 
