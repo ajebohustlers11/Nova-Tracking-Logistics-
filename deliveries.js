@@ -168,6 +168,7 @@ const deliveries = [
     },
     events: [
       { time: "2025-12-09T09:40:00Z", status: "In Transit", location: "Airborne from New York to Miami, USA", coords: [40.7128, -74.0060], details: "Package en route via flight to Miami" }
+      { time: "2025-12-09T09:80:00Z", status: "Delivered", location: "Miami International Airport (MIA), USA", coords: [25.7959, -80.2870], details: "Package has arrived and been successfully delivered at Miami International Airport" }
     ]
   },
 
@@ -541,6 +542,7 @@ const deliveries = [
     ]
   }
 ];
+
 
 
 
