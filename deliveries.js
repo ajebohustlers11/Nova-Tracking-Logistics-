@@ -130,20 +130,20 @@ const deliveries = [
   },
 
   {
-    trackingCode: "US27994576876",
-    estimatedDelivery: "12-09-2025:11:00Z",
-    customs: "pending clearance",
+    trackingCode: "UK22994578896",
+    estimatedDelivery: "10-12-2025:11:00Z",
+    customs: "",
     shipper: {
-      name: "LANEIGE",
-      phone: "+1 (929) 330-9752",
-      address: "1407 Broadway, Suite 210, New York, NY 10018",
-      email: "uslaneigecollaboration@gmail.com"
+      name: "BYOMA",
+      phone: "+44 7832 933672",
+      address: "319 St Vincents St, Glasgow, UK G2 5LD",
+      email: "byomaskincarecollaborations@gmail.com"
     },
     receiver: {
-      name: "Nayrovi Spencer Ubiera",
-      phone: "+1 8495024442",
-      address: "8550 NW 70TH ST, RP-218611, MIAMI, FL 33166-6216",
-      email: "nairobibelic.ugc@gmail.com"
+      name: "Hannah James",
+      phone: "+44 7519098263",
+      address: "42 David Newberry Drive PO13 8FE Lee on the Solent Hampshire United Kingdom",
+      email: "hannah.james2312@gmail.com"
     },
     shipment: {
       weight: "4.2 kg",
@@ -153,21 +153,21 @@ const deliveries = [
       product: "skincare products",
       quantity: 20,
       paymentMode: "Bank Transfer",
-      totalFreight: "$400",
+      totalFreight: "€300",
       carrier: "Air Carrier (Nova445763222)",
       carrierRef: "AC8899",
       departureTime: "15:20",
-      origin: "NEW YORK",
-      destination: "MIAMI",
-      pickupDate: "12-09-2025",
+      origin: "Glasgow",
+      destination: "United Kingdom",
+      pickupDate: "10-12-2025",
       pickupTime: "07:00",
       status: "Accepted",
-      comments: "Awaiting customs documents",
+      comments: "Shipped",
       agentName: "Jason Moore",
       shipmentType: "Air Cargo"
     },
     events: [
-      { time: "2025-12-09T09:40:00Z", status: "Delivered", location: "Miami International Airport (MIA), USA", coords: [25.7959, -80.2870], details: "Package has arrived at Miami International Airport" }
+      { time: "2025-12-10T09:40:00Z", status: "In transit", location: "Airborne from Glasgow to Hampshire, UK", coords: [55.8626, -4.2699], details: "En route to destination" }
     ]
   },
 
@@ -541,6 +541,7 @@ const deliveries = [
     ]
   }
 ];
+
 
 
 
