@@ -168,6 +168,7 @@ const deliveries = [
     },
     events: [
       { time: "2025-12-10T09:40:00Z", status: "In transit", location: "Airborne from Glasgow to Hampshire, UK", coords: [55.8626, -4.2699], details: "En route to destination" }
+      { time: "2025-12-11T09:30:00Z", status: "Arrival confirmed", location: "London Stansted Airport (STN), UK", coords: [51.8850, 0.2350], details: "Package has arrived at Stansted Airport" }
     ]
   },
 
@@ -541,6 +542,7 @@ const deliveries = [
     ]
   }
 ];
+
 
 
 
