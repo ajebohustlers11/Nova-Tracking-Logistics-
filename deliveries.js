@@ -48,7 +48,7 @@ const deliveries = [
     estimatedDelivery: "01-12-2025",
     customs: "",
     shipper: {
-      name: "NOVA",
+      name: "charlotte",
       phone: "+44 7832 933672",
       address: "8 Surrey St,Temple,London WC2R 2ND,United Kingdom",
       email: "charlottetilbury.influencers@gmail.com"
@@ -214,50 +214,44 @@ const deliveries = [
   },
 
   {
-    trackingCode: "FR11223344",
-    estimatedDelivery: "2025-09-01T13:00:00Z",
-    customs: "Orly Airport, Paris",
+    trackingCode: "UK4426637544",
+    estimatedDelivery: "12-13-2025T13:00:00Z",
+    customs: "",
     shipper: {
-      name: "Paris Couriers",
-      phone: "+33 145 678901",
-      address: "Boulevard St-Germain, Paris",
-      email: "contact@parcouriers.fr"
+      name: "BYOMA",
+      phone: "+44 7832 933672",
+      address: "319 St Vincents St, Glasgow, UK G2 5LD",
+      email: "byomaskincarecollaborations@gmail.com"
     },
     receiver: {
-      name: "Sarah Johnson",
-      phone: "+1 415 223344",
-      address: "Market St, San Francisco, USA",
-      email: "sarah.j@example.com"
+      name: "Eva Flores",
+      phone: "+1 7252163167",
+      address: "3921 fragrant jasmine ave n Las Vegas NV 89081",
+      email: "evieelunapr@gmail.com"
     },
     shipment: {
-      weight: "2 kg",
-      courier: "Chronopost",
-      packages: "Small Box",
+      weight: "4 kg",
+      courier: "NOVA",
+      packages: "Pr Package",
       mode: "Air",
-      product: "Perfume",
-      quantity: 5,
-      paymentMode: "Credit Card",
+      product: "Skincare",
+      quantity: 20,
+      paymentMode: "Apple pay",
       totalFreight: "€150",
-      carrier: "Air France",
-      carrierRef: "AF2233",
+      carrier: "Air Carrier (Nova445763222)",
+      carrierRef: "AC445763222",
       departureTime: "08:15",
-      origin: "Paris (ORY)",
-      destination: "San Francisco (SFO)",
-      pickupDate: "2025-08-19",
+      origin: "London",
+      destination: "USA",
+      pickupDate: "12-15-2025",
       pickupTime: "07:30",
-      status: "Order Processing",
-      comments: "At warehouse",
-      agentName: "Claire Dupont",
+      status: "Accepted",
+      comments: "Accepted",
+      agentName: "Jason Moore",
       shipmentType: "Air Express"
     },
     events: [
-      { time: "2025-08-19T05:50:00Z", status: "Shipment information received", location: "Boulevard St-Germain, Paris", coords: [48.8530, 2.3470], details: "Order created" },
-      { time: "2025-08-19T08:00:00Z", status: "Picked up", location: "Paris Sorting Center", coords: [48.8566, 2.3522], details: "Collected" },
-      { time: "2025-08-19T11:30:00Z", status: "Departed to airport", location: "Orly (ORY), Paris", coords: [48.7262, 2.3652], details: "Loaded to Air France" },
-      { time: "2025-08-20T02:45:00Z", status: "Arrived at Destination Airport", location: "San Francisco Intl (SFO)", coords: [37.6213, -122.3790], details: "Landed SFO" },
-      { time: "2025-08-20T10:00:00Z", status: "Customs clearance", location: "SFO customs", coords: [37.6213, -122.3790], details: "Cleared" },
-      { time: "2025-08-20T13:20:00Z", status: "Out for delivery", location: "Market St, San Francisco", coords: [37.7749, -122.4194], details: "Local courier assigned" },
-      { time: "2025-08-20T15:10:00Z", status: "Delivered", location: "Market St, San Francisco, USA", coords: [37.7749, -122.4194], details: "Delivered to Sarah Johnson" }
+      { time: "2025-08-19T05:50:00Z", status: "In Transit", location: "Airborne from Paris to USA", coords: [45.0000, -30.0000], details: "Package en route to the United States via air" },
     ]
   },
 
@@ -541,6 +535,7 @@ const deliveries = [
     ]
   }
 ];
+
 
 
 
