@@ -251,7 +251,7 @@ const deliveries = [
       shipmentType: "Air Express"
     },
     events: [
-      { time: "2025-08-19T05:50:00Z", status: "In Transit", location: "Airborne from London to USA", coords: [50.0000, -25.0000], details: "Package en route to the United States via air" },
+      { time: "2025-08-19T05:50:00Z", status: "In Transit", location: "Airborne from London to USA", coords: [40.0, -70.0], details: "Package en route to the United States via air" },
     ]
   },
 
@@ -535,6 +535,7 @@ const deliveries = [
     ]
   }
 ];
+
 
 
 
