@@ -215,8 +215,8 @@ const deliveries = [
 
   {
     trackingCode: "UK4426637544",
-    estimatedDelivery: "12-13-2025T13:00:00Z",
-    customs: "",
+    estimatedDelivery: "12-15-2025T13:00:00Z",
+    customs: "Awaiting Tax Clearance",
     shipper: {
       name: "BYOMA",
       phone: "+44 7832 933672",
@@ -246,12 +246,12 @@ const deliveries = [
       pickupDate: "12-15-2025",
       pickupTime: "07:30",
       status: "Accepted",
-      comments: "In Transit",
+      comments: "Delivered",
       agentName: "Jason Moore",
       shipmentType: "Air Express"
     },
     events: [
-      { time: "2025-08-19T05:50:00Z", status: "In Transit", location: "Airborne from London to USA", coords: [40.0, -70.0], details: "Package en route to the United States via air" },
+      { time: "2025-08-19T05:50:00Z", status: "Delivered", location: "John F. Kennedy International Airport (JFK), USA", coords: [40.6413, -73.7781], details: "Package has arrived at JFK Airport" },
     ]
   },
 
@@ -535,6 +535,7 @@ const deliveries = [
     ]
   }
 ];
+
 
 
 
