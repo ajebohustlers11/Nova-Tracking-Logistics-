@@ -130,20 +130,20 @@ const deliveries = [
   },
 
   {
-    trackingCode: "UK22994578896",
-    estimatedDelivery: "10-12-2025:11:00Z",
+    trackingCode: "US22993378890",
+    estimatedDelivery: "12-01-2026:11:00Z",
     customs: "",
     shipper: {
-      name: "BYOMA",
-      phone: "+44 7832 933672",
-      address: "319 St Vincents St, Glasgow, UK G2 5LD",
-      email: "byomaskincarecollaborations@gmail.com"
+      name: "VERSED",
+      phone: "+1 (910) 382-0427",
+      address: "West Hollywood, California, at 750 North San Vicente Boulevard, 8th Floor",
+      email: "versedus.collab@gmail.com"
     },
     receiver: {
-      name: "Hannah James",
-      phone: "+44 7519098263",
-      address: "42 David Newberry Drive PO13 8FE Lee on the Solent Hampshire United Kingdom",
-      email: "hannah.james2312@gmail.com"
+      name: "Federica Avallone",
+      phone: "+34 678193994",
+      address: "Carrer d’Atenes 5 Barcelona 08006 Atico A",
+      email: "avallonefederica991a@gmail.com"
     },
     shipment: {
       weight: "4.2 kg",
@@ -153,13 +153,13 @@ const deliveries = [
       product: "skincare products",
       quantity: 20,
       paymentMode: "Bank Transfer",
-      totalFreight: "€300",
+      totalFreight: "$300",
       carrier: "Air Carrier (Nova445763222)",
       carrierRef: "AC8899",
       departureTime: "15:20",
-      origin: "Glasgow",
-      destination: "United Kingdom",
-      pickupDate: "10-12-2025",
+      origin: "USA",
+      destination: "BARCELONA",
+      pickupDate: "12-01-2026",
       pickupTime: "07:00",
       status: "Accepted",
       comments: "Shipped",
@@ -167,7 +167,7 @@ const deliveries = [
       shipmentType: "Air Cargo"
     },
     events: [
-      { time: "2025-12-11T09:30:00Z", status: "Arrival confirmed", location: "London Stansted Airport (STN), UK", coords: [51.8850, 0.2350], details: "Package has arrived at Stansted Airport" }
+      { time: "2025-01-09T09:30:00Z", status: "In transit", location: "In flight to Barcelona, Spain", coords: [45.2000, -20.5000], details: "Package is currently in transit on an international flight from the United States to Barcelona, Spain" }
     ]
   },
 
@@ -535,6 +535,7 @@ const deliveries = [
     ]
   }
 ];
+
 
 
 
