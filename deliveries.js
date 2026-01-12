@@ -167,7 +167,7 @@ const deliveries = [
       shipmentType: "Air Cargo"
     },
     events: [
-      { time: "2025-01-09T09:30:00Z", status: "In transit", location: "In flight to Barcelona, Spain", coords: [45.2000, -20.5000], details: "Package is currently in transit on an international flight from the United States to Barcelona, Spain" }
+      { time: "2026-01-12T09:30:00Z", status: "Delivered", location: "Girona–Costa Brava Airport (GRO), Spain", coords: [41.9009, 2.7606], details: "Package has been successfully delivered to Girona–Costa Brava Airport (GRO) and received at the airport facility." }
     ]
   },
 
@@ -535,6 +535,7 @@ const deliveries = [
     ]
   }
 ];
+
 
 
 
