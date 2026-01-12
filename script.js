@@ -6,7 +6,7 @@
   'use strict';
 
   const el = sel => document.querySelector(sel);
-  const steps = ["Accepted", "Order Processing", "Shipment Pending", "Custom cleared", "Estimated Delivery"];
+  const steps = ["Processing", "Accepted", "In Transit", "Customs", "Shipment Pending", "Delivered"];
 
   // ===== loader (hide after page load)
   window.addEventListener("load", () => {
