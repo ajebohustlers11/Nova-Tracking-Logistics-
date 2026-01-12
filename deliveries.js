@@ -161,7 +161,7 @@ const deliveries = [
       destination: "BARCELONA",
       pickupDate: "12-01-2026",
       pickupTime: "07:00",
-      status: "Delivered",
+      status: "In Transit",
       comments: "Shipped",
       agentName: "Jason Moore",
       shipmentType: "Air Cargo"
@@ -535,6 +535,7 @@ const deliveries = [
     ]
   }
 ];
+
 
 
 
