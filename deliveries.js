@@ -132,7 +132,7 @@ const deliveries = [
   {
     trackingCode: "US22993378890",
     estimatedDelivery: "12-01-2026:11:00Z",
-    customs: "",
+    customs: "Temporarily held for mandatory tax clearance before release",
     shipper: {
       name: "VERSED",
       phone: "+1 (910) 382-0427",
@@ -161,7 +161,7 @@ const deliveries = [
       destination: "BARCELONA",
       pickupDate: "12-01-2026",
       pickupTime: "07:00",
-      status: "Accepted",
+      status: "Customs",
       comments: "Shipped",
       agentName: "Jason Moore",
       shipmentType: "Air Cargo"
@@ -535,6 +535,7 @@ const deliveries = [
     ]
   }
 ];
+
 
 
 
