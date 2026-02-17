@@ -130,20 +130,20 @@ const deliveries = [
   },
 
   {
-    trackingCode: "US22993378890",
-    estimatedDelivery: "12-01-2026:11:00Z",
-    customs: "Temporarily held for mandatory tax clearance before release",
+    trackingCode: "US5399338890",
+    estimatedDelivery: "17-02-2026:11:00Z",
+    customs: "",
     shipper: {
       name: "VERSED",
       phone: "+1 (910) 382-0427",
-      address: "West Hollywood, California, at 750 North San Vicente Boulevard, 8th Floor",
-      email: "versedus.collab@gmail.com"
+      address: "San Vicente Boulevard, 8th Floor",
+      email: "versed.partnership@gmail.com"
     },
     receiver: {
-      name: "Federica Avallone",
-      phone: "+34 678193994",
-      address: "Carrer d’Atenes 5 Barcelona 08006 Atico A",
-      email: "avallonefederica991a@gmail.com"
+      name: "Suzyanna Bajagain",
+      phone: "+1 3853267253",
+      address: "6492 N warren avenue, oklahoma city, 73116",
+      email: "cyanna028@gmail.com"
     },
     shipment: {
       weight: "4.2 kg",
@@ -157,17 +157,17 @@ const deliveries = [
       carrier: "Air Carrier (Nova445763222)",
       carrierRef: "AC8899",
       departureTime: "15:20",
-      origin: "USA",
-      destination: "BARCELONA",
-      pickupDate: "12-01-2026",
+      origin: "California",
+      destination: "Oklahoma",
+      pickupDate: "02-18-2026",
       pickupTime: "07:00",
-      status: "Customs",
-      comments: "Shipped",
+      status: "Accepted",
+      comments: "processing shipment",
       agentName: "Jason Moore",
       shipmentType: "Air Cargo"
     },
     events: [
-      { time: "2026-01-12T09:30:00Z", status: "Delivered", location: "Girona–Costa Brava Airport (GRO), Spain", coords: [41.9009, 2.7606], details: "Package has been successfully delivered to Girona–Costa Brava Airport (GRO) and received at the airport facility." }
+      { time: "2026-02-17T09:30:00Z", status: "Departed Origin", location: "En route to Oklahoma from California, USA", coords: [35.2000, -118.5000], details: "Package has departed the California airport and is currently in flight en route to Oklahoma." }
     ]
   },
 
@@ -535,6 +535,7 @@ const deliveries = [
     ]
   }
 ];
+
 
 
 
