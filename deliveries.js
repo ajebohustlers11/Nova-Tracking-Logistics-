@@ -161,13 +161,13 @@ const deliveries = [
       destination: "Oklahoma",
       pickupDate: "02-18-2026",
       pickupTime: "07:00",
-      status: "Accepted",
+      status: "customs",
       comments: "processing shipment",
       agentName: "Jason Moore",
       shipmentType: "Air Cargo"
     },
     events: [
-      { time: "2026-02-17T09:30:00Z", status: "Departed Origin", location: "En route to Oklahoma from California, USA", coords: [35.2000, -118.5000], details: "Package has departed the California airport and is currently in flight en route to Oklahoma." }
+      { time: "2026-02-17T09:30:00Z", status: "Delivered", location: "Cincinnati/Northern Kentucky International Airport (CVG), USA", coords: [39.0488, -84.6678], details: "Package has been delivered to Cincinnati/Northern Kentucky International Airport (CVG) and received at the airport facility." }
     ]
   },
 
@@ -535,6 +535,7 @@ const deliveries = [
     ]
   }
 ];
+
 
 
 
