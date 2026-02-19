@@ -167,7 +167,7 @@ const deliveries = [
       shipmentType: "Air Cargo"
     },
     events: [
-      { time: "2026-02-17T09:30:00Z", status: "Delivered", location: "Cincinnati/Northern Kentucky International Airport (CVG), USA", coords: [39.0488, -84.6678], details: "Package has been delivered to Cincinnati/Northern Kentucky International Airport (CVG) and received at the airport facility." }
+      { time: "2026-02-18T09:30:00Z", status: "Delivered", location: "Cincinnati/Northern Kentucky International Airport (CVG), USA", coords: [39.0488, -84.6678], details: "Package has been delivered to Cincinnati/Northern Kentucky International Airport (CVG) and received at the airport facility." }
     ]
   },
 
@@ -535,6 +535,7 @@ const deliveries = [
     ]
   }
 ];
+
 
 
 
