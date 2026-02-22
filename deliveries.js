@@ -257,48 +257,43 @@ const deliveries = [
 
   {
     trackingCode: "IN77889900",
-    estimatedDelivery: "2025-09-03T18:00:00Z",
-    customs: "Mumbai port",
+    estimatedDelivery: "22-02-2026T18:00:00Z",
+    customs: "",
     shipper: {
-      name: "IndiaCargo",
-      phone: "+91 22 22334455",
-      address: "Marine Lines, Mumbai",
-      email: "support@indiacargo.in"
+      name: "VERSED",
+      phone: "+1 (910) 382-0427",
+      address: "San Vicente Boulevard, 8th Floor",
+      email: "versed.partnership@gmail.com"
     },
     receiver: {
-      name: "David Miller",
-      phone: "+61 400 778899",
-      address: "George St, Sydney, Australia",
-      email: "david.m@example.au"
+      name: "Elsa Benet Batlle",
+      phone: "+34 682420212",
+      address: "C/Enric Granados 13 15 Badalona, Barcelona, España",
+      email: "lopebatlle@gmail.com"
     },
     shipment: {
-      weight: "15 kg",
-      courier: "BlueDart",
-      packages: "Carton",
-      mode: "Sea",
-      product: "Textiles",
-      quantity: 50,
-      paymentMode: "Letter of Credit",
-      totalFreight: "$600",
-      carrier: "Maersk",
-      carrierRef: "MS7788",
+      weight: "4 kg",
+      courier: "NOVA",
+      packages: "Pr Package",
+      mode: "Air",
+      product: "Skincare",
+      quantity: 20,
+      paymentMode: "Bank Transfer",
+      totalFreight: "$450",
+      carrier: "Air Carrier (Nova445763222)",
+      carrierRef: "AC445763222",
       departureTime: "10:45",
-      origin: "Mumbai (BOM)",
-      destination: "Sydney (SYD)",
-      pickupDate: "2025-08-21",
+      origin: "USA",
+      destination: "Spain",
+      pickupDate: "24-02-2026",
       pickupTime: "09:30",
-      status: "Accepted",
+      status: "In Transit",
       comments: "Onboard vessel",
-      agentName: "Ravi Kumar",
-      shipmentType: "Sea Freight"
+      agentName: "Jason Moore",
+      shipmentType: "Air Express"
     },
     events: [
-      { time: "2025-08-21T04:00:00Z", status: "Shipment information received", location: "Marine Lines, Mumbai", coords: [18.9433, 72.8238], details: "Booking placed" },
-      { time: "2025-08-21T08:30:00Z", status: "Picked up", location: "Mumbai Port - Jawaharlal Nehru Port (JNPT)", coords: [18.9220, 72.8336], details: "Loaded to container" },
-      { time: "2025-08-23T06:00:00Z", status: "Departed Port", location: "Leaving JNPT", coords: [18.9220, 72.8336], details: "Vessel departed" },
-      { time: "2025-09-01T10:00:00Z", status: "Arrived Port", location: "Port Botany, Sydney", coords: [-33.9460, 151.1756], details: "Arrived at Sydney port" },
-      { time: "2025-09-02T08:30:00Z", status: "Customs clearance completed", location: "Sydney customs", coords: [-33.9460, 151.1756], details: "Cleared for delivery" },
-      { time: "2025-09-03T07:20:00Z", status: "Out for delivery", location: "George St, Sydney", coords: [-33.8688, 151.2093], details: "Local delivery assigned" }
+      { time: "2026-02-22T04:00:00Z", status: "n transit", location: "En route to Spain from the United States", coords: [43.0000, -15.0000], details: "Booking placed" },
     ]
   },
 
@@ -535,6 +530,7 @@ const deliveries = [
     ]
   }
 ];
+
 
 
 
