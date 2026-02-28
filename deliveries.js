@@ -288,7 +288,7 @@ const deliveries = [
       pickupDate: "24-02-2026",
       pickupTime: "09:30",
       status: "Customs",
-      comments: "Onboard vessel",
+      comments: "Delivered",
       agentName: "Jason Moore",
       shipmentType: "Air Express"
     },
@@ -530,6 +530,7 @@ const deliveries = [
     ]
   }
 ];
+
 
 
 
