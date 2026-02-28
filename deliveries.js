@@ -258,7 +258,7 @@ const deliveries = [
   {
     trackingCode: "IN77889900",
     estimatedDelivery: "22-02-2026T18:00:00Z",
-    customs: "",
+    customs: "Awaiting Tax Clearance",
     shipper: {
       name: "VERSED",
       phone: "+1 (910) 382-0427",
@@ -287,13 +287,13 @@ const deliveries = [
       destination: "Spain",
       pickupDate: "24-02-2026",
       pickupTime: "09:30",
-      status: "In Transit",
+      status: "Customs",
       comments: "Onboard vessel",
       agentName: "Jason Moore",
       shipmentType: "Air Express"
     },
     events: [
-      { time: "2026-02-22T04:00:00Z", status: "n transit", location: "En route to Spain from the United States", coords: [43.0000, -15.0000], details: "Booking placed" },
+      { time: "2026-02-24T04:00:00Z", status: "Delivered", location: "Girona–Costa Brava Airport (GRO), Spain", coords: [41.9009, 2.7606], details: "Package has been successfully delivered to Girona–Costa Brava Airport (GRO) and received at the airport facility." },
     ]
   },
 
@@ -530,6 +530,7 @@ const deliveries = [
     ]
   }
 ];
+
 
 
 
