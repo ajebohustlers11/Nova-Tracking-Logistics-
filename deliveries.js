@@ -131,7 +131,7 @@ const deliveries = [
 
   {
     trackingCode: "US5399338890",
-    estimatedDelivery: "17-02-2026:11:00Z",
+    estimatedDelivery: "18-03-2026:11:00Z",
     customs: "",
     shipper: {
       name: "VERSED",
@@ -140,10 +140,10 @@ const deliveries = [
       email: "versed.partnership@gmail.com"
     },
     receiver: {
-      name: "Suzyanna Bajagain",
-      phone: "+1 3853267253",
-      address: "6492 N warren avenue, oklahoma city, 73116",
-      email: "cyanna028@gmail.com"
+      name: "Nini dghvilava",
+      phone: "+1 3026608398",
+      address: "1626 E Ayre Street, GA952556, USA, Wilmington, Delaware, zip code 19804",
+      email: "ninidghv@gmail.com"
     },
     shipment: {
       weight: "4.2 kg",
@@ -152,22 +152,22 @@ const deliveries = [
       mode: "Air",
       product: "skincare products",
       quantity: 20,
-      paymentMode: "Bank Transfer",
+      paymentMode: "Paypal",
       totalFreight: "$300",
       carrier: "Air Carrier (Nova445763222)",
       carrierRef: "AC8899",
       departureTime: "15:20",
       origin: "California",
-      destination: "Oklahoma",
-      pickupDate: "02-18-2026",
+      destination: "Wilmington",
+      pickupDate: "19-03-2026",
       pickupTime: "07:00",
-      status: "customs",
+      status: "In transit",
       comments: "processing shipment",
       agentName: "Jason Moore",
       shipmentType: "Air Cargo"
     },
     events: [
-      { time: "2026-02-18T09:30:00Z", status: "Delivered", location: "Cincinnati/Northern Kentucky International Airport (CVG), USA", coords: [39.0488, -84.6678], details: "Package has been delivered to Cincinnati/Northern Kentucky International Airport (CVG) and received at the airport facility." }
+      { time: "2026-03-19T09:30:00Z", status: "In transit", location: "En route to Wilmington, DE, USA", coords: [37.5000, -95.0000], details: "Package is currently in transit via air toward the destination region." }
     ]
   },
 
