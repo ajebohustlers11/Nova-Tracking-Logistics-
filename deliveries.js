@@ -182,7 +182,7 @@ const deliveries = [
       email: "cetaphilskincarecollaborations@gmail.com"
     },
     receiver: {
-      name: "+1 8563575247",
+      name: "Lori Goldstein",
       phone: "+1 206 354 4647",
       address: "893 12th St, Hammonton, NJ 08037",
       email: "logo628@gmail.com"
