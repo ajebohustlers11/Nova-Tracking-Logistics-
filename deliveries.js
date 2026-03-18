@@ -172,20 +172,20 @@ const deliveries = [
   },
 
  {
-    trackingCode: "US554437569",
-    estimatedDelivery: "12-06-2025T10:00:00Z",
+    trackingCode: "US954737569",
+    estimatedDelivery: "03-18-2026T10:00:00Z",
     customs: "",
     shipper: {
       name: "CETAPHIL",
-      phone: "+1 (929) 330-9752 ",
+      phone: "+44 7832 933672",
       address: "Brickell City Centre (78 S.W. Seventh St.)",
       email: "cetaphilskincarecollaborations@gmail.com"
     },
     receiver: {
-      name: "Amitfurman",
+      name: "+1 8563575247",
       phone: "+1 206 354 4647",
-      address: "41814 n spy glass dr anthem Arizona 85086 USA",
-      email: "Amitfurman23@gmail.com"
+      address: "893 12th St, Hammonton, NJ 08037",
+      email: "logo628@gmail.com"
     },
     shipment: {
       weight: "4.5 kg",
@@ -194,14 +194,14 @@ const deliveries = [
       mode: "Air",
       product: "skincare",
       quantity: 30,
-      paymentMode: "Zelle",
+      paymentMode: "Strip Card",
       totalFreight: "$350",
       carrier: "Air Carrier (Nova445763222)",
       carrierRef: "AC445763222",
       departureTime: "06:00",
       origin: "Florida",
-      destination: "Arizona",
-      pickupDate: "12-07-2025",
+      destination: "Hammonton",
+      pickupDate: "03-18-2026",
       pickupTime: "05:30",
       status: "Accepted",
       comments: "In transit",
@@ -209,7 +209,7 @@ const deliveries = [
       shipmentType: "Air Cargo"
     },
     events: [
-      { time: "2025-12-06T04:00:00Z", status: "Shipment in transit", location: "Airborne from Florida to Arizona, USA", coords: [28.5383, -81.3792], details: "Shipment en route via flight" },
+      { time: "2026-03-18T04:00:00Z", status: "Shipment in transit", location: "Airborne to Hammonton, New Jersey, USA", coords: [39.6365, -74.8024], details: "Shipment en route via flight" },
     ]
   },
 
