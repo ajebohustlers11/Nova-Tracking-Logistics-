@@ -177,7 +177,7 @@ const deliveries = [
     customs: "",
     shipper: {
       name: "CETAPHIL",
-      phone: "+44 7832 933672",
+      phone: "+1 (910) 382-0427",
       address: "Brickell City Centre (78 S.W. Seventh St.)",
       email: "cetaphilskincarecollaborations@gmail.com"
     },
