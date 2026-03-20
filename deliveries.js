@@ -132,7 +132,7 @@ const deliveries = [
   {
     trackingCode: "US5379334890",
     estimatedDelivery: "18-03-2026:11:00Z",
-    customs: "",
+    customs: "Awaiting customs clearance",
     shipper: {
       name: "VERSED",
       phone: "+1 (910) 382-0427",
@@ -161,20 +161,20 @@ const deliveries = [
       destination: "Wilmington",
       pickupDate: "19-03-2026",
       pickupTime: "07:00",
-      status: "In transit",
+      status: "delivered",
       comments: "processing shipment",
       agentName: "Jason Moore",
       shipmentType: "Air Cargo"
     },
     events: [
-      { time: "2026-03-19T09:30:00Z", status: "In transit", location: "En route to Wilmington, DE, USA", coords: [37.5000, -95.0000], details: "Package is currently in transit via air toward the destination region." }
+      { time: "2026-03-20T09:12:00Z", status: "Delivered", location: "Ronald Reagan Washington National Airport (DCA)", coords: [38.8512, -77.0402], details: "Package has been successfully delivered to Ronald Reagan Washington National Airport (DCA) and received at the airport facility." }
     ]
   },
 
  {
     trackingCode: "US954737569",
     estimatedDelivery: "03-18-2026T10:00:00Z",
-    customs: "",
+    customs: "Awaiting custom and tax clearance",
     shipper: {
       name: "CETAPHIL",
       phone: "+1 (910) 382-0427",
@@ -204,12 +204,12 @@ const deliveries = [
       pickupDate: "03-18-2026",
       pickupTime: "05:30",
       status: "Accepted",
-      comments: "In transit",
+      comments: "delivered",
       agentName: "Jason Moore",
       shipmentType: "Air Cargo"
     },
     events: [
-      { time: "2026-03-18T04:00:00Z", status: "Shipment in transit", location: "Airborne to Hammonton, New Jersey, USA", coords: [39.6365, -74.8024], details: "Shipment en route via flight" },
+      { time: "2026-03-20T04:00:00Z", status: "Delivered, location: "LaGuardia Airport (LGA), New York, USA", coords: [40.7769, -73.8740], details: "Package has been successfully delivered to LaGuardia Airport (LGA) and received at the airport facility." },
     ]
   },
 
