@@ -167,7 +167,7 @@ const deliveries = [
       shipmentType: "Air Cargo"
     },
     events: [
-      { time: "2026-03-20T09:12:00Z", status: "Delivered", location: "Ronald Reagan Washington National Airport (DCA)", coords: [38.8512, -77.0402], details: "Package has been successfully delivered to Ronald Reagan Washington National Airport (DCA) and received at the airport facility." }
+      { time: "2026-03-20T09:02:00Z", status: "Delivered", location: "Ronald Reagan Washington National Airport (DCA)", coords: [38.8512, -77.0402], details: "Package has been successfully delivered to Ronald Reagan Washington National Airport (DCA) and received at the airport facility." }
     ]
   },
 
@@ -209,7 +209,7 @@ const deliveries = [
       shipmentType: "Air Cargo"
     },
     events: [
-      { time: "2026-03-20T04:00:00Z", status: "Delivered, location: "LaGuardia Airport USA", coords: [40.7769, -73.8740], details: "Package has been successfully delivered to LaGuardia Airport (LGA) and received at the airport facility." },
+      { time: "2026-03-20T04:00:00Z", status: "Delivered", location: "LaGuardia Airport (LGA), New York, USA", coords: [40.7769, -73.8740], details: "Package has been successfully delivered to LaGuardia Airport (LGA) and received at the airport facility." },
     ]
   },
 
