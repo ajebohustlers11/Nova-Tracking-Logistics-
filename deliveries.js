@@ -214,9 +214,9 @@ const deliveries = [
   },
 
   {
-    trackingCode: "UK4426637544",
-    estimatedDelivery: "12-15-2025T13:00:00Z",
-    customs: "Awaiting Tax Clearance",
+    trackingCode: "UK4927737544",
+    estimatedDelivery: "31-5-2026T13:00:00Z",
+    customs: "",
     shipper: {
       name: "BYOMA",
       phone: "+44 7832 933672",
@@ -224,10 +224,10 @@ const deliveries = [
       email: "byomaskincarecollaborations@gmail.com"
     },
     receiver: {
-      name: "Eva Flores",
-      phone: "+1 7252163167",
-      address: "3921 fragrant jasmine ave n Las Vegas NV 89081",
-      email: "evieelunapr@gmail.com"
+      name: "Marianna piazzolla",
+      phone: "+39 3342913463",
+      address: "Via della resistenza 22 San Ferdinando di Puglia (BAT) CAP:76017",
+      email: "mariannapiazzolla0@gmail.com"
     },
     shipment: {
       weight: "4 kg",
@@ -235,23 +235,23 @@ const deliveries = [
       packages: "Pr Package",
       mode: "Air",
       product: "Skincare",
-      quantity: 20,
+      quantity: 30,
       paymentMode: "Apple pay",
       totalFreight: "€150",
       carrier: "Air Carrier (Nova445763222)",
       carrierRef: "AC445763222",
       departureTime: "08:15",
       origin: "London",
-      destination: "USA",
-      pickupDate: "12-15-2025",
+      destination: "italy",
+      pickupDate: "01-06-2025",
       pickupTime: "07:30",
       status: "Accepted",
-      comments: "Delivered",
+      comments: "processing package clearnce",
       agentName: "Jason Moore",
       shipmentType: "Air Express"
     },
     events: [
-      { time: "2025-08-19T05:50:00Z", status: "Delivered", location: "John F. Kennedy International Airport (JFK), USA", coords: [40.6413, -73.7781], details: "Package has arrived at JFK Airport" },
+      { time: "2026-05-28T05:50:00Z", status: "Processing Clearance", location: "Nova Shipping Company, 319 St Vincents St, Glasgow, UK G2 5LD", coords: [55.8609, -4.2655], details: "Package is undergoimg clearnce" },
     ]
   },
 
