@@ -288,12 +288,12 @@ const deliveries = [
       pickupDate: "01-06-2026",
       pickupTime: "09:30",
       status: "Accepted",
-      comments: "Delivered",
+      comments: "In Transit",
       agentName: "Jason Moore",
       shipmentType: "Air Express"
     },
     events: [
-      { time: "2026-05-30T04:00:00Z", status: "In Transit to USA", location: "Glasgow Airport (GLA), Paisley, Scotland, United Kingdom", coords: [55.8719, -4.4331], details: "Package departed Glasgow Airport and is currently in transit to the USA. Estimated arrival in 2–3 days." },
+      { time: "2026-05-30T04:00:00Z", status: "In Transit", location: "Glasgow Airport (GLA), Paisley, Scotland, United Kingdom", coords: [55.8719, -4.4331], details: "Package departed Glasgow Airport and is currently in transit to the USA. Estimated arrival in 2–3 days." },
     ]
   },
 
