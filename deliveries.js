@@ -251,24 +251,24 @@ const deliveries = [
       shipmentType: "Air Express"
     },
     events: [
-      { time: "2026-05-28T05:50:00Z", status: "Processing Clearance", location: "Nova Shipping Company, 319 St Vincents St, Glasgow, UK G2 5LD", coords: [55.8609, -4.2655], details: "Package is undergoimg clearnce" },
+      { time: "2026-05-28T05:50:00Z", status: "Processing Clearance", location: "Glasgow Airport (GLA), Paisley, Scotland, United Kingdom", coords: [55.8719, -4.4331], details: "Package is undergoimg clearnce" },
     ]
   },
 
   {
-    trackingCode: "IN77889900",
-    estimatedDelivery: "22-02-2026T18:00:00Z",
+    trackingCode: "UK77889900UE",
+    estimatedDelivery: "01-6-2026T13:00:00Z",
     customs: "Awaiting Tax Clearance",
     shipper: {
-      name: "VERSED",
-      phone: "+1 (910) 382-0427",
-      address: "San Vicente Boulevard, 8th Floor",
-      email: "versed.partnership@gmail.com"
+      name: "BYOMA",
+      phone: "+44 7832 933672",
+      address: "319 St Vincents St, Glasgow, UK G2 5LD",
+      email: "byomaskincarecollaborations@gmail.com"
     },
     receiver: {
-      name: "Elsa Benet Batlle",
-      phone: "+34 682420212",
-      address: "C/Enric Granados 13 15 Badalona, Barcelona, España",
+      name: "Damario Nembhard",
+      phone: "+1 8768298494",
+      address: "SPRINT4475, Lauderdale Lakes, FL 33311, USA",
       email: "lopebatlle@gmail.com"
     },
     shipment: {
@@ -277,23 +277,23 @@ const deliveries = [
       packages: "Pr Package",
       mode: "Air",
       product: "Skincare",
-      quantity: 20,
-      paymentMode: "Bank Transfer",
-      totalFreight: "$450",
+      quantity: 30,
+      paymentMode: "Electronic Funds Transfer",
+      totalFreight: "$459",
       carrier: "Air Carrier (Nova445763222)",
       carrierRef: "AC445763222",
       departureTime: "10:45",
-      origin: "USA",
-      destination: "Spain",
-      pickupDate: "24-02-2026",
+      origin: "LONDON",
+      destination: "USA",
+      pickupDate: "01-06-2026",
       pickupTime: "09:30",
-      status: "Customs",
+      status: "Accepted",
       comments: "Delivered",
       agentName: "Jason Moore",
       shipmentType: "Air Express"
     },
     events: [
-      { time: "2026-02-24T04:00:00Z", status: "Delivered", location: "Girona–Costa Brava Airport (GRO), Spain", coords: [41.9009, 2.7606], details: "Package has been successfully delivered to Girona–Costa Brava Airport (GRO) and received at the airport facility." },
+      { time: "2026-05-30T04:00:00Z", status: "In Transit to USA", location: "Glasgow Airport (GLA), Paisley, Scotland, United Kingdom", coords: [55.8719, -4.4331], details: "Package departed Glasgow Airport and is currently in transit to the USA. Estimated arrival in 2–3 days." },
     ]
   },
 
