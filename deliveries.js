@@ -172,20 +172,20 @@ const deliveries = [
   },
 
  {
-    trackingCode: "US954737569",
-    estimatedDelivery: "03-18-2026T10:00:00Z",
-    customs: "Awaiting custom and tax clearance",
+    trackingCode: "Uk954737569EU",
+    estimatedDelivery: "06-03-2026T10:00:00Z",
+    customs: "",
     shipper: {
       name: "CETAPHIL",
-      phone: "+1 (910) 382-0427",
-      address: "Brickell City Centre (78 S.W. Seventh St.)",
+      phone: "+44 7832 933672",
+      address: "Glasgow Airport (GLA), Paisley, Scotland, United Kingdom",
       email: "cetaphilskincarecollaborations@gmail.com"
     },
     receiver: {
-      name: "Lori Goldstein",
-      phone: "+1 206 354 4647",
-      address: "893 12th St, Hammonton, NJ 08037",
-      email: "logo628@gmail.com"
+      name: "Newton Rene Larrieux",
+      phone: "+50 932760952",
+      address: "8435 NW 68TH ST MEDLEY FL 33166 , United states",
+      email: "reneelarrieux6@gmail.com"
     },
     shipment: {
       weight: "4.5 kg",
@@ -194,22 +194,22 @@ const deliveries = [
       mode: "Air",
       product: "skincare",
       quantity: 30,
-      paymentMode: "Strip Card",
+      paymentMode: "E-Transfer",
       totalFreight: "$350",
       carrier: "Air Carrier (Nova445763222)",
       carrierRef: "AC445763222",
       departureTime: "06:00",
-      origin: "Florida",
-      destination: "Hammonton",
-      pickupDate: "03-18-2026",
-      pickupTime: "05:30",
+      origin: "London",
+      destination: "USA",
+      pickupDate: "06-05-2026",
+      pickupTime: "12:00",
       status: "Accepted",
-      comments: "delivered",
+      comments: "In Transit",
       agentName: "Jason Moore",
       shipmentType: "Air Cargo"
     },
     events: [
-      { time: "2026-03-20T04:00:00Z", status: "Delivered", location: "LaGuardia Airport (LGA), New York, USA", coords: [40.7769, -73.8740], details: "Package has been successfully delivered to LaGuardia Airport (LGA) and received at the airport facility." },
+      { time: "2026-03-20T04:00:00Z", status: "In Transit", location: "Glasgow Airport (GLA), Paisley, Scotland, United Kingdom", coords: [55.8719, -4.4331], details: "Package departed Glasgow Airport and is currently in transit to the USA. Estimated arrival in 1-2 days." },
     ]
   },
 
@@ -272,7 +272,7 @@ const deliveries = [
       email: "lopebatlle@gmail.com"
     },
     shipment: {
-      weight: "4 kg",
+      weight: "4kg",
       courier: "NOVA",
       packages: "Pr Package",
       mode: "Air",
@@ -285,15 +285,15 @@ const deliveries = [
       departureTime: "10:45",
       origin: "LONDON",
       destination: "USA",
-      pickupDate: "01-06-2026",
-      pickupTime: "09:30",
+      pickupDate: "03-06-2026",
+      pickupTime: "12:00",
       status: "Accepted",
-      comments: "In Transit",
+      comments: "Delivered",
       agentName: "Jason Moore",
       shipmentType: "Air Express"
     },
     events: [
-      { time: "2026-05-30T04:00:00Z", status: "In Transit", location: "Glasgow Airport (GLA), Paisley, Scotland, United Kingdom", coords: [55.8719, -4.4331], details: "Package departed Glasgow Airport and is currently in transit to the USA. Estimated arrival in 2–3 days." },
+      { time: "2026-06-03T04:00:00Z", status: "Delivered", location: "Southwest Florida International Airport (RSW), Fort Myers, Florida, USA", coords: [26.5362, -81.7552], details: "Package successfully delivered to Southwest Florida International Airport (RSW)" },
     ]
   },
 
