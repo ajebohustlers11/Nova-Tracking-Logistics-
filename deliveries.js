@@ -310,7 +310,7 @@ const deliveries = [
     receiver: {
       name: "Adam Krylik",
       phone: "",
-      address: "Ul Brwinowska 48D05-830 Stara Wieś Polska Weight 16kg",
+      address: "Ul Brwinowska 48D05-830 Stara Wieś Polska",
       email: ""
     },
     shipment: {
