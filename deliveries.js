@@ -298,49 +298,45 @@ const deliveries = [
   },
 
   {
-    trackingCode: "BR00998877",
-    estimatedDelivery: "2025-09-08T16:00:00Z",
-    customs: "Sao Paulo airport",
+    trackingCode: "BR00998877EU",
+    estimatedDelivery: "05-06-2026T16:00:00Z",
+    customs: "",
     shipper: {
-      name: "Brasil Express",
-      phone: "+55 11 987654321",
-      address: "Av Paulista, Sao Paulo",
-      email: "contact@br-express.com"
+      name: "Mgmfabrics",
+      phone: "",
+      address: "",
+      email: "mgmfabrics@outlook.com"
     },
     receiver: {
-      name: "Anna Schmidt",
-      phone: "+49 176 556677",
-      address: "Hauptstrasse, Munich, Germany",
+      name: "Adam Krylik",
+      phone: "",
+      address: "Ul Brwinowska 48D05-830 Stara Wieś Polska Weight 16kg",
       email: "anna.s@example.de"
     },
     shipment: {
-      weight: "9 kg",
-      courier: "LATAM Cargo",
+      weight: "16kg",
+      courier: "NOVA",
       packages: "Box",
       mode: "Air",
-      product: "Shoes",
-      quantity: 20,
-      paymentMode: "Credit Card",
-      totalFreight: "$350",
-      carrier: "LATAM Airlines",
+      product: "two shock absorbers front right and left Toyota Sienna L30 year 2016.",
+      quantity: 1,
+      paymentMode: "Bank Transfer",
+      totalFreight: "90€",
+      carrier: "Air Carrier (Nova445763222)",
       carrierRef: "LA8899",
       departureTime: "14:00",
-      origin: "Sao Paulo (GRU)",
-      destination: "Munich (MUC)",
-      pickupDate: "2025-08-23",
+      origin: "Lithuania",
+      destination: "Poland",
+      pickupDate: "5-06-2026",
       pickupTime: "08:30",
       status: "Shipment Pending",
       comments: "Scheduled for flight",
-      agentName: "Carlos Silva",
+      agentName: "Derrick Rayon",
       shipmentType: "Air Express"
     },
     events: [
-      { time: "2025-08-23T06:00:00Z", status: "Shipment information received", location: "Av Paulista, Sao Paulo", coords: [-23.564, -46.652], details: "Order created" },
-      { time: "2025-08-23T09:30:00Z", status: "Picked up", location: "Sao Paulo Sorting Hub", coords: [-23.628, -46.656], details: "Collected" },
-      { time: "2025-08-23T13:15:00Z", status: "Departed to airport", location: "Guarulhos (GRU)", coords: [-23.4356, -46.4731], details: "Loaded LATAM" },
-      { time: "2025-08-24T05:50:00Z", status: "Arrived Transit Hub", location: "Lisbon (LIS)", coords: [38.7742, -9.1342], details: "Transit stop" },
-      { time: "2025-08-24T16:20:00Z", status: "Arrived at Destination Airport", location: "Munich (MUC)", coords: [48.3538, 11.7861], details: "Landed Munich" },
-      { time: "2025-08-25T09:10:00Z", status: "Out for delivery", location: "Hauptstrasse, Munich", coords: [48.1351, 11.5820], details: "Local courier assigned" }
+      { time: "2026-06-03T06:00:00Z", status: "Shipment information received", location: "Vilnius International Airport (VNO)", coords: [54.6341, 25.2858], details: "Order created" },
+      
     ]
   },
 
