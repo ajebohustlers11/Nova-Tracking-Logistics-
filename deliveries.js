@@ -173,7 +173,7 @@ const deliveries = [
 
  {
     trackingCode: "Uk954737569EU",
-    estimatedDelivery: "06-03-2026T10:00:00Z",
+    estimatedDelivery: "06-05-2026T10:00:00Z",
     customs: "",
     shipper: {
       name: "CETAPHIL",
@@ -203,19 +203,19 @@ const deliveries = [
       destination: "USA",
       pickupDate: "06-05-2026",
       pickupTime: "12:00",
-      status: "Accepted",
-      comments: "In Transit",
+      status: "Delivered",
+      comments: "Package delivered at Airport",
       agentName: "Jason Moore",
       shipmentType: "Air Cargo"
     },
     events: [
-      { time: "2026-03-20T04:00:00Z", status: "In Transit", location: "Glasgow Airport (GLA), Paisley, Scotland, United Kingdom", coords: [55.8719, -4.4331], details: "Package departed Glasgow Airport and is currently in transit to the USA. Estimated arrival in 1-2 days." },
+      { time: "2026-03-20T04:00:00Z", status: "Delivered", location: "Southwest Florida International Airport (RSW), Fort Myers, Florida, USA", coords: [26.5362, -81.7552], details: "Package successfully delivered to Southwest Florida International Airport (RSW)." },
     ]
   },
 
   {
     trackingCode: "UK4927737544",
-    estimatedDelivery: "31-5-2026T13:00:00Z",
+    estimatedDelivery: "08-06-2026T13:00:00Z",
     customs: "",
     shipper: {
       name: "BYOMA",
@@ -230,28 +230,28 @@ const deliveries = [
       email: "mariannapiazzolla0@gmail.com"
     },
     shipment: {
-      weight: "4 kg",
+      weight: "4kg",
       courier: "NOVA",
       packages: "Pr Package",
       mode: "Air",
       product: "Skincare",
       quantity: 30,
       paymentMode: "Apple pay",
-      totalFreight: "€150",
+      totalFreight: "€500",
       carrier: "Air Carrier (Nova445763222)",
       carrierRef: "AC445763222",
       departureTime: "08:15",
       origin: "London",
       destination: "italy",
-      pickupDate: "01-06-2025",
-      pickupTime: "07:30",
-      status: "Accepted",
-      comments: "processing package clearnce",
+      pickupDate: "08-06-2026",
+      pickupTime: "12:30",
+      status: "In Transit",
+      comments: "package cleared",
       agentName: "Jason Moore",
       shipmentType: "Air Express"
     },
     events: [
-      { time: "2026-05-28T05:50:00Z", status: "Processing Clearance", location: "Glasgow Airport (GLA), Paisley, Scotland, United Kingdom", coords: [55.8719, -4.4331], details: "Package is undergoimg clearnce" },
+      { time: "2026-05-28T05:50:00Z", status: "In Transit", location: "En Route from Glasgow Airport (GLA) to Italy", coords: [55.6500, -3.2000], details: "Package has departed Glasgow Airport and is currently in transit to Italy." },
     ]
   },
 
