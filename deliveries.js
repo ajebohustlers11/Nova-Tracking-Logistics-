@@ -251,7 +251,7 @@ const deliveries = [
       shipmentType: "Air Express"
     },
     events: [
-      { time: "2026-06-05T05:50:00Z", status: "In Transit", location: "En Route from Glasgow Airport (GLA) to Italy", coords: [55.6500, -3.2000], details: "Package has departed Glasgow Airport and is currently in transit to Italy." },
+      { time: "2026-06-05T05:50:00Z", status: "In Transit", location: "En Route from Glasgow Airport (GLA) to Italy", coords: [47.2000, 4.8000], details: "Package has departed Glasgow Airport and is currently in transit to Italy." },
     ]
   },
 
