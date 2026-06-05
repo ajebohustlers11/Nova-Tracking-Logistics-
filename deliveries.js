@@ -209,7 +209,7 @@ const deliveries = [
       shipmentType: "Air Cargo"
     },
     events: [
-      { time: "2026-03-20T04:00:00Z", status: "Delivered", location: "Southwest Florida International Airport (RSW), Fort Myers, Florida, USA", coords: [26.5362, -81.7552], details: "Package successfully delivered to Southwest Florida International Airport (RSW)." },
+      { time: "2026-06-05T04:00:00Z", status: "Delivered", location: "Southwest Florida International Airport (RSW), Fort Myers, Florida, USA", coords: [26.5362, -81.7552], details: "Package successfully delivered to Southwest Florida International Airport (RSW)." },
     ]
   },
 
@@ -251,7 +251,7 @@ const deliveries = [
       shipmentType: "Air Express"
     },
     events: [
-      { time: "2026-05-28T05:50:00Z", status: "In Transit", location: "En Route from Glasgow Airport (GLA) to Italy", coords: [55.6500, -3.2000], details: "Package has departed Glasgow Airport and is currently in transit to Italy." },
+      { time: "2026-06-05T05:50:00Z", status: "In Transit", location: "En Route from Glasgow Airport (GLA) to Italy", coords: [55.6500, -3.2000], details: "Package has departed Glasgow Airport and is currently in transit to Italy." },
     ]
   },
 
