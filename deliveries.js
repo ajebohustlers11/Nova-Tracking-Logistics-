@@ -236,7 +236,7 @@ const deliveries = [
       mode: "Air",
       product: "Skincare",
       quantity: 30,
-      paymentMode: "Apple pay",
+      paymentMode: "Bank Transfer",
       totalFreight: "€500",
       carrier: "Air Carrier (Nova445763222)",
       carrierRef: "AC445763222",
@@ -245,13 +245,13 @@ const deliveries = [
       destination: "italy",
       pickupDate: "08-06-2026",
       pickupTime: "12:30",
-      status: "In Transit",
-      comments: "package cleared",
+      status: "Delivered",
+      comments: "package Delivered To Italy",
       agentName: "Jason Moore",
       shipmentType: "Air Express"
     },
     events: [
-      { time: "2026-06-05T05:50:00Z", status: "In Transit", location: "En Route from Glasgow Airport (GLA) to Italy", coords: [47.2000, 4.8000], details: "Package has departed Glasgow Airport and is currently in transit to Italy." },
+      { time: "2026-06-05T05:50:00Z", status: "Delivered", location: "Bari International Airport-Karol Wojtyla (BRI)", coords: [41.1389, 16.7606], details: "Package Delivered To Italy" },
     ]
   },
 
