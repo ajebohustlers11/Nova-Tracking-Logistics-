@@ -297,6 +297,48 @@ const deliveries = [
     ]
   },
 
+{
+    trackingCode: "UK55887900UE",
+    estimatedDelivery: "19-7-2026T13:00:00Z",
+    customs: "Awaiting Tax Clearance",
+    shipper: {
+      name: "BYOMA",
+      phone: "+44 7832 933672",
+      address: "319 St Vincents St, Glasgow, UK G2 5LD",
+      email: "byomaskincarecollaboration@gmail.com"
+    },
+    receiver: {
+      name: "Francesca Pia Topo",
+      phone: "+39 3510545978",
+      address: "Via domitiana km 42.800 n.31 Castel Volturno (Caserta) 81030",
+      email: "francescapiatopo.mua@gmail.com"
+    },
+    shipment: {
+      weight: "4kg",
+      courier: "NOVA",
+      packages: "Pr Package",
+      mode: "Air",
+      product: "Skincare",
+      quantity: 30,
+      paymentMode: "Bank Transfer",
+      totalFreight: "€250",
+      carrier: "Air Carrier (Nova445763222)",
+      carrierRef: "AC445763222",
+      departureTime: "10:45",
+      origin: "LONDON",
+      destination: "Italy",
+      pickupDate: "22-07-2026",
+      pickupTime: "12:00",
+      status: "Accepted",
+      comments: "Shipment Pending",
+      agentName: "Jason Moore",
+      shipmentType: "Air Express"
+    },
+    events: [
+      { time: "2026-07-17T04:00:00Z", status: "Accepted", location: "319 St Vincent St, Glasgow, Scotland, United Kingdom, G2 5LD", coords: [55.8624, -4.2663], details: "Package is awaiting customs clearance and final processing." },
+    ]
+  },
+  
   {
     trackingCode: "BR00998877EU",
     estimatedDelivery: "05-06-2026T16:00:00Z",
