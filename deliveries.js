@@ -340,44 +340,44 @@ const deliveries = [
   },
   
   {
-    trackingCode: "BR00998877EU",
-    estimatedDelivery: "05-06-2026T16:00:00Z",
-    customs: "",
+    trackingCode: "UK00998877EU",
+    estimatedDelivery: "07-02-2026T16:00:00Z",
+    customs: "Insurance",
     shipper: {
-      name: "Mgmfabrics",
-      phone: "",
-      address: "",
-      email: "mgmfabrics@outlook.com"
+      name: "AMELIORATE",
+      phone: "+44 7456448637",
+      address: "319 St Vincents St, Glasgow, UK G2 5L",
+      email: "Partnership@ukameliorate.com"
     },
     receiver: {
-      name: "Adam Krylik",
-      phone: "",
-      address: "Ul Brwinowska 48D05-830 Stara Wieś Polska",
-      email: ""
+      name: "Hiba Khan",
+      phone: "+1 2158089818",
+      address: "Bensalem Pennsylvania 3206 Glendale Drive Bensalem Pennsylvania 19920",
+      email: "hibak077@gmail.com"
     },
     shipment: {
-      weight: "16kg",
+      weight: "4.5kg",
       courier: "NOVA",
-      packages: "Box",
+      packages: "Pr package",
       mode: "Air",
-      product: "two shock absorbers front right and left Toyota Sienna L30 year 2016.",
-      quantity: 1,
-      paymentMode: "Bank Transfer",
-      totalFreight: "90€",
+      product: "Skincare product",
+      quantity: 30,
+      paymentMode: "Paypal",
+      totalFreight: "300€",
       carrier: "Air Carrier (Nova445763222)",
       carrierRef: "LA8899",
       departureTime: "14:00",
-      origin: "Lithuania",
-      destination: "Poland",
-      pickupDate: "5-06-2026",
+      origin: "London",
+      destination: "USA",
+      pickupDate: "07-06-2026",
       pickupTime: "08:30",
       status: "Shipment Pending",
       comments: "Scheduled for flight",
-      agentName: "Derrick Rayon",
+      agentName: "George Thompson",
       shipmentType: "Air Express"
     },
     events: [
-      { time: "2026-06-03T06:00:00Z", status: "Shipment information received", location: "Vilnius International Airport (VNO)", coords: [54.6341, 25.2858], details: "Order created" },
+      { time: "2026-02-07T06:00:00Z", status: "Shipment information received", location: "319 St Vincent St, Glasgow, Scotland, United Kingdom, G2 5LD", coords: [55.8624, -4.2663], details: "Order created" },
       
     ]
   },
