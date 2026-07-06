@@ -342,7 +342,7 @@ const deliveries = [
   {
     trackingCode: "UK00998877EU",
     estimatedDelivery: "07-02-2026T16:00:00Z",
-    customs: "Insurance",
+    customs: "",
     shipper: {
       name: "AMELIORATE",
       phone: "+44 7456448637",
@@ -371,13 +371,13 @@ const deliveries = [
       destination: "USA",
       pickupDate: "07-06-2026",
       pickupTime: "08:30",
-      status: "Shipment Pending",
+      status: "In Transit",
       comments: "Scheduled for flight",
       agentName: "George Thompson",
       shipmentType: "Air Express"
     },
     events: [
-      { time: "2026-02-07T06:00:00Z", status: "Shipment information received", location: "319 St Vincent St, Glasgow, Scotland, United Kingdom, G2 5LD", coords: [55.8624, -4.2663], details: "Order created" },
+      { time: "2026-02-07T06:00:00Z", status: "In Transit", location: "North Atlantic Ocean", coords: [53.9000, -30.5000], details: "Package is in transit to the destination port. Estimated delivery within 1 day." },
       
     ]
   },
