@@ -342,7 +342,7 @@ const deliveries = [
   {
     trackingCode: "UK00998877EU",
     estimatedDelivery: "07-02-2026T16:00:00Z",
-    customs: "",
+    customs: "Awaitind customs clearance",
     shipper: {
       name: "AMELIORATE",
       phone: "+44 7456448637",
@@ -371,13 +371,13 @@ const deliveries = [
       destination: "USA",
       pickupDate: "07-06-2026",
       pickupTime: "08:30",
-      status: "In Transit",
+      status: "Customs",
       comments: "Scheduled for flight",
       agentName: "George Thompson",
       shipmentType: "Air Express"
     },
     events: [
-      { time: "2026-02-07T06:00:00Z", status: "In Transit", location: "North Atlantic Ocean", coords: [53.9000, -30.5000], details: "Package is in transit to the destination port. Estimated delivery within 1 day." },
+      { time: "2026-02-07T06:00:00Z", status: "In Transit", location: "Newark Liberty International Airport (EWR), Newark, New Jersey, USA", coords: [40.6895, -74.1745], details: "Package successfully delivered to Newark Liberty International Airport (EWR) for final processing." },
       
     ]
   },
