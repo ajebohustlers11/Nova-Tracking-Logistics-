@@ -342,7 +342,7 @@ const deliveries = [
   {
     trackingCode: "UK00998877EU",
     estimatedDelivery: "07-02-2026T16:00:00Z",
-    customs: "Awaitind customs clearance",
+    customs: "Awaiting customs clearance",
     shipper: {
       name: "AMELIORATE",
       phone: "+44 7456448637",
@@ -377,7 +377,7 @@ const deliveries = [
       shipmentType: "Air Express"
     },
     events: [
-      { time: "2026-02-07T06:00:00Z", status: "In Transit", location: "Newark Liberty International Airport (EWR), Newark, New Jersey, USA", coords: [40.6895, -74.1745], details: "Package successfully delivered to Newark Liberty International Airport (EWR) for final processing." },
+      { time: "2026-07-07T06:00:00Z", status: "In Transit", location: "Newark Liberty International Airport (EWR), Newark, New Jersey, USA", coords: [40.6895, -74.1745], details: "Package successfully delivered to Newark Liberty International Airport (EWR) for final processing." },
       
     ]
   },
