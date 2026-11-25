@@ -130,44 +130,44 @@ const deliveries = [
   },
 
   {
-    trackingCode: "US5379334890",
-    estimatedDelivery: "18-03-2026:11:00Z",
+    trackingCode: "ITA59094890",
+    estimatedDelivery: "25-11-2026:11:00Z",
     customs: "Awaiting customs clearance",
     shipper: {
-      name: "VERSED",
+      name: "BYOMA",
       phone: "+1 (910) 382-0427",
-      address: "San Vicente Boulevard, 8th Floor",
-      email: "versed.partnership@gmail.com"
+      address: "319 St Vincents St, Glasgow, UK G2 5LD",
+      email: "byomainfluencerpartnerships@gmail.com"
     },
     receiver: {
-      name: "Nini dghvilava",
-      phone: "+1 3026608398",
-      address: "1626 E Ayre Street, GA952556, USA, Wilmington, Delaware, zip code 19804",
-      email: "ninidghv@gmail.com"
+      name: "Ana Carcu",
+      phone: "+39 3509779590",
+      address: "Via Celeste 106, Partinico, Sicilia, 90047, Italy",
+      email: "anacarcu22@icloud.com"
     },
     shipment: {
-      weight: "4.2 kg",
+      weight: "10 kg",
       courier: "NOVA",
       packages: "Pr Package",
       mode: "Air",
       product: "skincare products",
-      quantity: 20,
-      paymentMode: "Paypal",
+      quantity: 30,
+      paymentMode: "BAMK Tansfer",
       totalFreight: "$300",
       carrier: "Air Carrier (Nova445763222)",
       carrierRef: "AC8899",
       departureTime: "15:20",
-      origin: "California",
-      destination: "Wilmington",
-      pickupDate: "19-03-2026",
+      origin: "United Kingdom",
+      destination: "Italy",
+      pickupDate: "25-11-2026",
       pickupTime: "07:00",
       status: "delivered",
-      comments: "processing shipment",
+      comments: "procesing VAT clearance",
       agentName: "Jason Moore",
       shipmentType: "Air Cargo"
     },
     events: [
-      { time: "2026-03-20T09:02:00Z", status: "Delivered", location: "Ronald Reagan Washington National Airport (DCA)", coords: [38.8512, -77.0402], details: "Package has been successfully delivered to Ronald Reagan Washington National Airport (DCA) and received at the airport facility." }
+      { time: "2026-11-25T09:02:00Z", status: "Delivered", location: "Rome Fiumicino Airport", coords: [41.8003, 12.2389], details: "Package has been successfully delivered to Rome Fiumicino Airport and received at the airport facility." }
     ]
   },
 
